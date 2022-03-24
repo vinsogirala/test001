@@ -1,0 +1,3602 @@
+<VisualModelDS xmlns="http://allegrodevelopment.com/VisualModelDS.xsd">
+  <xs:schema id="VisualModelDS" targetNamespace="http://allegrodevelopment.com/VisualModelDS.xsd" xmlns:mstns="http://allegrodevelopment.com/VisualModelDS.xsd" xmlns="http://allegrodevelopment.com/VisualModelDS.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+    <xs:element name="VisualModelDS" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="viewname">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="viewname" type="xs:string" />
+                <xs:element name="description" type="xs:string" minOccurs="0" />
+                <xs:element name="viewgroup" type="xs:string" />
+                <xs:element name="class" msprop:Generator_ColumnPropNameInTable="classColumn" msprop:Generator_ColumnVarNameInTable="columnclass" msprop:Generator_UserColumnName="class" type="xs:string" />
+                <xs:element name="viewset" type="xs:string" />
+                <xs:element name="sortseq" type="xs:decimal" minOccurs="0" />
+                <xs:element name="timecolumn" type="xs:string" minOccurs="0" />
+                <xs:element name="timeperiod" type="xs:string" minOccurs="0" />
+                <xs:element name="autoselect" type="xs:boolean" minOccurs="0" />
+                <xs:element name="status" type="xs:string" minOccurs="0" />
+                <xs:element name="creationname" type="xs:string" />
+                <xs:element name="creationdate" msdata:DateTimeMode="Unspecified" type="xs:dateTime" />
+                <xs:element name="revisionname" type="xs:string" minOccurs="0" />
+                <xs:element name="revisiondate" msdata:DateTimeMode="Unspecified" type="xs:dateTime" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="viewpane">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="viewname" type="xs:string" />
+                <xs:element name="viewpane" type="xs:string" />
+                <xs:element name="priority" type="xs:decimal" />
+                <xs:element name="sortseq" type="xs:decimal" />
+                <xs:element name="panetype" type="xs:string" minOccurs="0" />
+                <xs:element name="charttype" type="xs:string" minOccurs="0" />
+                <xs:element name="datatable" type="xs:string" minOccurs="0" />
+                <xs:element name="viewpanetitle" type="xs:string" minOccurs="0" />
+                <xs:element name="viewpanefont" type="xs:string" minOccurs="0" />
+                <xs:element name="viewpanefontsize" type="xs:decimal" minOccurs="0" />
+                <xs:element name="viewpanefontbold" type="xs:boolean" minOccurs="0" />
+                <xs:element name="visible" type="xs:boolean" minOccurs="0" />
+                <xs:element name="creationname" type="xs:string" />
+                <xs:element name="creationdate" msdata:DateTimeMode="Unspecified" type="xs:dateTime" />
+                <xs:element name="revisionname" type="xs:string" minOccurs="0" />
+                <xs:element name="revisiondate" msdata:DateTimeMode="Unspecified" type="xs:dateTime" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="viewcolumn">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="viewname" type="xs:string" />
+                <xs:element name="viewpane" type="xs:string" />
+                <xs:element name="viewcolumn" type="xs:string" />
+                <xs:element name="gridseq" type="xs:decimal" />
+                <xs:element name="dbtable" type="xs:string" minOccurs="0" />
+                <xs:element name="dbcolumn" type="xs:string" minOccurs="0" />
+                <xs:element name="label" type="xs:string" minOccurs="0" />
+                <xs:element name="visible" type="xs:boolean" minOccurs="0" />
+                <xs:element name="sortseq" type="xs:decimal" minOccurs="0" />
+                <xs:element name="sortorder" type="xs:string" minOccurs="0" />
+                <xs:element name="viewdefault" type="xs:string" minOccurs="0" />
+                <xs:element name="subtotal" type="xs:boolean" minOccurs="0" />
+                <xs:element name="drill" type="xs:boolean" minOccurs="0" />
+                <xs:element name="pagebreak" type="xs:boolean" minOccurs="0" />
+                <xs:element name="crosstab" type="xs:string" minOccurs="0" />
+                <xs:element name="crosstabtype" type="xs:string" minOccurs="0" />
+                <xs:element name="linkview" type="xs:string" minOccurs="0" />
+                <xs:element name="expression" type="xs:string" minOccurs="0" />
+                <xs:element name="columnedit" type="xs:boolean" minOccurs="0" />
+                <xs:element name="columnreq" type="xs:boolean" minOccurs="0" />
+                <xs:element name="columngroup" type="xs:boolean" minOccurs="0" />
+                <xs:element name="columnformat" type="xs:string" minOccurs="0" />
+                <xs:element name="proxypane" type="xs:string" minOccurs="0" />
+                <xs:element name="proxycolumn" type="xs:string" minOccurs="0" />
+                <xs:element name="mapfunction" type="xs:string" minOccurs="0" />
+                <xs:element name="chartfunction" type="xs:string" minOccurs="0" />
+                <xs:element name="calendarfunction" type="xs:string" minOccurs="0" />
+                <xs:element name="creationname" type="xs:string" />
+                <xs:element name="creationdate" msdata:DateTimeMode="Unspecified" type="xs:dateTime" />
+                <xs:element name="revisionname" type="xs:string" minOccurs="0" />
+                <xs:element name="revisiondate" msdata:DateTimeMode="Unspecified" type="xs:dateTime" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="viewindex">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="viewname" type="xs:string" />
+                <xs:element name="viewindex" type="xs:string" />
+                <xs:element name="dbtable" type="xs:string" />
+                <xs:element name="dbcolumn" type="xs:string" />
+                <xs:element name="childindex" type="xs:string" minOccurs="0" />
+                <xs:element name="visible" type="xs:boolean" />
+                <xs:element name="creationname" type="xs:string" />
+                <xs:element name="creationdate" msdata:DateTimeMode="Unspecified" type="xs:dateTime" />
+                <xs:element name="revisionname" type="xs:string" minOccurs="0" />
+                <xs:element name="revisiondate" msdata:DateTimeMode="Unspecified" type="xs:dateTime" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="viewtemplate">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="viewname" type="xs:string" />
+                <xs:element name="viewpane" type="xs:string" />
+                <xs:element name="viewcolumn" type="xs:string" />
+                <xs:element name="value" type="xs:string" />
+                <xs:element name="template" type="xs:string" />
+                <xs:element name="templateseq" type="xs:decimal" minOccurs="0" />
+                <xs:element name="creationname" type="xs:string" />
+                <xs:element name="creationdate" msdata:DateTimeMode="Unspecified" type="xs:dateTime" />
+                <xs:element name="revisionname" type="xs:string" minOccurs="0" />
+                <xs:element name="revisiondate" msdata:DateTimeMode="Unspecified" type="xs:dateTime" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="viewcriteria">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="viewname" type="xs:string" />
+                <xs:element name="surrogate" type="xs:decimal" />
+                <xs:element name="logoperator" type="xs:string" />
+                <xs:element name="openparen" type="xs:string" minOccurs="0" />
+                <xs:element name="dbtable" type="xs:string" minOccurs="0" />
+                <xs:element name="dbcolumn" type="xs:string" minOccurs="0" />
+                <xs:element name="reloperator" type="xs:string" />
+                <xs:element name="value" type="xs:string" minOccurs="0" />
+                <xs:element name="closeparen" type="xs:string" minOccurs="0" />
+                <xs:element name="creationname" type="xs:string" />
+                <xs:element name="creationdate" msdata:DateTimeMode="Unspecified" type="xs:dateTime" />
+                <xs:element name="revisionname" type="xs:string" minOccurs="0" />
+                <xs:element name="revisiondate" msdata:DateTimeMode="Unspecified" type="xs:dateTime" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="viewpanecriteria">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="viewname" type="xs:string" />
+                <xs:element name="viewpane" type="xs:string" />
+                <xs:element name="surrogate" type="xs:decimal" />
+                <xs:element name="logoperator" type="xs:string" />
+                <xs:element name="openparen" type="xs:string" minOccurs="0" />
+                <xs:element name="dbtable" type="xs:string" minOccurs="0" />
+                <xs:element name="dbcolumn" type="xs:string" minOccurs="0" />
+                <xs:element name="reloperator" type="xs:string" />
+                <xs:element name="value" type="xs:string" minOccurs="0" />
+                <xs:element name="closeparen" type="xs:string" minOccurs="0" />
+                <xs:element name="creationname" type="xs:string" />
+                <xs:element name="creationdate" msdata:DateTimeMode="Unspecified" type="xs:dateTime" />
+                <xs:element name="revisionname" type="xs:string" minOccurs="0" />
+                <xs:element name="revisiondate" msdata:DateTimeMode="Unspecified" type="xs:dateTime" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="class" msprop:Generator_RowEvHandlerName="classRowChangeEventHandler" msprop:Generator_RowEvArgName="classRowChangeEvent" msprop:Generator_UserTableName="class" msprop:Generator_TableClassName="classDataTable" msprop:Generator_RowClassName="classRow" msprop:Generator_TableVarName="tableclass">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="class" msprop:Generator_ColumnPropNameInTable="classColumn" msprop:Generator_ColumnVarNameInTable="columnclass" msprop:Generator_UserColumnName="class" type="xs:string" />
+                <xs:element name="assembly" type="xs:string" />
+                <xs:element name="component" type="xs:string" />
+                <xs:element name="description" type="xs:string" minOccurs="0" />
+                <xs:element name="creationname" type="xs:string" />
+                <xs:element name="creationdate" msdata:DateTimeMode="Unspecified" type="xs:dateTime" />
+                <xs:element name="revisionname" type="xs:string" minOccurs="0" />
+                <xs:element name="revisiondate" msdata:DateTimeMode="Unspecified" type="xs:dateTime" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="classmethod">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="class" msprop:Generator_ColumnPropNameInTable="classColumn" msprop:Generator_ColumnVarNameInTable="columnclass" msprop:Generator_UserColumnName="class" type="xs:string" />
+                <xs:element name="method" type="xs:string" />
+                <xs:element name="sortseq" type="xs:decimal" minOccurs="0" />
+                <xs:element name="description" type="xs:string" minOccurs="0" />
+                <xs:element name="methodicon" type="xs:string" minOccurs="0" />
+                <xs:element name="methodtype" type="xs:string" minOccurs="0" />
+                <xs:element name="buttontype" type="xs:string" minOccurs="0" />
+                <xs:element name="url" type="xs:string" minOccurs="0" />
+                <xs:element name="webmethod" type="xs:string" minOccurs="0" />
+                <xs:element name="includeclassparam" type="xs:boolean" minOccurs="0" />
+                <xs:element name="async" type="xs:boolean" minOccurs="0" />
+                <xs:element name="returntype" type="xs:string" minOccurs="0" />
+                <xs:element name="returnhandle" type="xs:string" minOccurs="0" />
+                <xs:element name="creationname" type="xs:string" />
+                <xs:element name="creationdate" msdata:DateTimeMode="Unspecified" type="xs:dateTime" />
+                <xs:element name="revisionname" type="xs:string" minOccurs="0" />
+                <xs:element name="revisiondate" msdata:DateTimeMode="Unspecified" type="xs:dateTime" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="classparameter">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="class" msprop:Generator_ColumnPropNameInTable="classColumn" msprop:Generator_ColumnVarNameInTable="columnclass" msprop:Generator_UserColumnName="class" type="xs:string" />
+                <xs:element name="parameter" type="xs:string" />
+                <xs:element name="sortseq" type="xs:decimal" minOccurs="0" />
+                <xs:element name="paramtype" type="xs:string" minOccurs="0" />
+                <xs:element name="paramlen" type="xs:decimal" minOccurs="0" />
+                <xs:element name="description" type="xs:string" minOccurs="0" />
+                <xs:element name="label" type="xs:string" />
+                <xs:element name="paramdefault" type="xs:string" minOccurs="0" />
+                <xs:element name="dbconstraint" type="xs:string" minOccurs="0" />
+                <xs:element name="columnformat" type="xs:string" minOccurs="0" />
+                <xs:element name="creationname" type="xs:string" />
+                <xs:element name="creationdate" msdata:DateTimeMode="Unspecified" type="xs:dateTime" />
+                <xs:element name="revisionname" type="xs:string" minOccurs="0" />
+                <xs:element name="revisiondate" msdata:DateTimeMode="Unspecified" type="xs:dateTime" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="template">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="template" type="xs:string" />
+                <xs:element name="description" type="xs:string" minOccurs="0" />
+                <xs:element name="templatetype" type="xs:string" minOccurs="0" />
+                <xs:element name="status" type="xs:string" />
+                <xs:element name="creationname" type="xs:string" />
+                <xs:element name="creationdate" msdata:DateTimeMode="Unspecified" type="xs:dateTime" />
+                <xs:element name="revisionname" type="xs:string" minOccurs="0" />
+                <xs:element name="revisiondate" msdata:DateTimeMode="Unspecified" type="xs:dateTime" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="templatecalendar">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="template" type="xs:string" />
+                <xs:element name="calendarevent" type="xs:string" />
+                <xs:element name="dbtable" type="xs:string" />
+                <xs:element name="dbcolumn" type="xs:string" />
+                <xs:element name="calendartype" type="xs:string" />
+                <xs:element name="description" type="xs:string" minOccurs="0" />
+                <xs:element name="calendarpriority" type="xs:string" />
+                <xs:element name="disevent" type="xs:boolean" />
+                <xs:element name="loadevent" type="xs:boolean" />
+                <xs:element name="initialschedule" type="xs:decimal" minOccurs="0" />
+                <xs:element name="datecolumn" type="xs:string" minOccurs="0" />
+                <xs:element name="frequency" type="xs:string" />
+                <xs:element name="creationname" type="xs:string" />
+                <xs:element name="creationdate" msdata:DateTimeMode="Unspecified" type="xs:dateTime" />
+                <xs:element name="revisionname" type="xs:string" minOccurs="0" />
+                <xs:element name="revisiondate" msdata:DateTimeMode="Unspecified" type="xs:dateTime" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="templatedocument">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="template" type="xs:string" />
+                <xs:element name="documenttype" type="xs:string" />
+                <xs:element name="dbtable" type="xs:string" />
+                <xs:element name="dbcolumn" type="xs:string" />
+                <xs:element name="documentformat" type="xs:string" minOccurs="0" />
+                <xs:element name="documentstatus" type="xs:string" minOccurs="0" />
+                <xs:element name="required" type="xs:boolean" minOccurs="0" />
+                <xs:element name="creationname" type="xs:string" />
+                <xs:element name="creationdate" msdata:DateTimeMode="Unspecified" type="xs:dateTime" />
+                <xs:element name="revisionname" type="xs:string" minOccurs="0" />
+                <xs:element name="revisiondate" msdata:DateTimeMode="Unspecified" type="xs:dateTime" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="templatepane">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="template" type="xs:string" />
+                <xs:element name="viewpane" type="xs:string" />
+                <xs:element name="visible" type="xs:boolean" />
+                <xs:element name="viewpanetype" type="xs:string" />
+                <xs:element name="creationname" type="xs:string" />
+                <xs:element name="creationdate" msdata:DateTimeMode="Unspecified" type="xs:dateTime" />
+                <xs:element name="revisionname" type="xs:string" minOccurs="0" />
+                <xs:element name="revisiondate" msdata:DateTimeMode="Unspecified" type="xs:dateTime" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="templatecolumn">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="template" type="xs:string" />
+                <xs:element name="viewpane" type="xs:string" />
+                <xs:element name="viewcolumn" type="xs:string" />
+                <xs:element name="visible" type="xs:boolean" minOccurs="0" />
+                <xs:element name="columnedit" type="xs:boolean" minOccurs="0" />
+                <xs:element name="columnreq" type="xs:boolean" minOccurs="0" />
+                <xs:element name="columnformat" type="xs:string" minOccurs="0" />
+                <xs:element name="viewdefault" type="xs:string" minOccurs="0" />
+                <xs:element name="creationname" type="xs:string" />
+                <xs:element name="creationdate" msdata:DateTimeMode="Unspecified" type="xs:dateTime" />
+                <xs:element name="revisionname" type="xs:string" minOccurs="0" />
+                <xs:element name="revisiondate" msdata:DateTimeMode="Unspecified" type="xs:dateTime" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="templatefee">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="template">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="32" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="surrogate" type="xs:decimal" />
+                <xs:element name="company" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="32" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="counterparty" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="32" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="feetype" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="32" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="description" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="32" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="paystatus" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="4" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="optionpricetype" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="16" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="pricemode">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="8" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="currency" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="8" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="feemethod">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="16" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="creationname">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="24" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="creationdate" msdata:DateTimeMode="Unspecified" type="xs:dateTime" />
+                <xs:element name="revisionname" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="24" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="revisiondate" msdata:DateTimeMode="Unspecified" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="h_version" type="xs:long" default="-1" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="viewcard">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="viewname">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="64" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="viewpane">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="64" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="viewcolumn">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="64" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="visible" type="xs:boolean" />
+                <xs:element name="cardcolumn" type="xs:decimal" />
+                <xs:element name="cardrow" type="xs:decimal" />
+                <xs:element name="cardorder" type="xs:decimal" />
+                <xs:element name="cardlabel" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="32" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="cardspan" type="xs:decimal" />
+                <xs:element name="pixelwidth" type="xs:decimal" />
+                <xs:element name="creationname">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="64" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="creationdate" msdata:DateTimeMode="Unspecified" type="xs:dateTime" />
+                <xs:element name="revisionname" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="64" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="revisiondate" msdata:DateTimeMode="Unspecified" type="xs:dateTime" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="viewpanestyle">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="viewname" type="xs:string" />
+                <xs:element name="priority" type="xs:decimal" />
+                <xs:element name="panestyle" type="xs:string" minOccurs="0" />
+                <xs:element name="visible" type="xs:boolean" minOccurs="0" />
+                <xs:element name="creationname" type="xs:string" />
+                <xs:element name="creationdate" msdata:DateTimeMode="Unspecified" type="xs:dateTime" />
+                <xs:element name="revisionname" type="xs:string" minOccurs="0" />
+                <xs:element name="revisiondate" msdata:DateTimeMode="Unspecified" type="xs:dateTime" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="classmethodparam">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="class" msprop:Generator_ColumnPropNameInTable="classColumn" msprop:Generator_ColumnVarNameInTable="columnclass" msprop:Generator_UserColumnName="class" type="xs:string" />
+                <xs:element name="method" type="xs:string" />
+                <xs:element name="paramseq" type="xs:int" />
+                <xs:element name="paramname" type="xs:string" minOccurs="0" />
+                <xs:element name="paramsource" type="xs:string" minOccurs="0" />
+                <xs:element name="paramvalue" type="xs:string" minOccurs="0" />
+                <xs:element name="creationname" type="xs:string" />
+                <xs:element name="creationdate" msdata:DateTimeMode="Unspecified" type="xs:dateTime" />
+                <xs:element name="revisionname" type="xs:string" minOccurs="0" />
+                <xs:element name="revisiondate" msdata:DateTimeMode="Unspecified" type="xs:dateTime" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="viewcolumnmethod">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="viewname">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="64" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="viewpane">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="64" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="viewcolumn">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="64" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="sortseq" type="xs:decimal" />
+                <xs:element name="url" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="256" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="webmethod" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="64" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="includeclassparam" type="xs:boolean" minOccurs="0" />
+                <xs:element name="returntype" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="32" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="returnhandle" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="32" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="creationname">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="64" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="creationdate" msdata:DateTimeMode="Unspecified" type="xs:dateTime" />
+                <xs:element name="revisionname" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="64" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="revisiondate" msdata:DateTimeMode="Unspecified" type="xs:dateTime" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="viewcolumnmethodparam">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="viewname">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="64" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="viewpane">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="64" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="viewcolumn">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="64" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="sortseq" type="xs:decimal" />
+                <xs:element name="paramseq" type="xs:decimal" />
+                <xs:element name="paramname">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="32" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="paramsource">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="32" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="paramvalue" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="1024" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="creationname">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="64" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="creationdate" msdata:DateTimeMode="Unspecified" type="xs:dateTime" />
+                <xs:element name="revisionname" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="64" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="revisiondate" msdata:DateTimeMode="Unspecified" type="xs:dateTime" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="feedetail">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="fee">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="8" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="dbcolumn" default="TEMPLATE">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="16" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="dbvalue">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="16" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="feemode" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="8" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="feetype" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="32" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="description" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="32" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="company" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="32" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="counterparty" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="32" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="paystatus" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="4" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="optionpricetype" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="16" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="feecode" type="xs:decimal" minOccurs="0" />
+                <xs:element name="unit" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="8" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="priceindex" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="32" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="pricelevel">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="16" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="pricediff" type="xs:decimal" minOccurs="0" />
+                <xs:element name="currency" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="8" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="feemethod" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="16" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="factor" type="xs:decimal" />
+                <xs:element name="quantityfactor" type="xs:decimal" minOccurs="0" />
+                <xs:element name="indexfactor" type="xs:decimal" minOccurs="0" />
+                <xs:element name="feetier" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="16" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="feeproduct" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="16" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="feetimeperiod" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="16" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="feesettlement" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="16" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="feetag" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="64" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="functiontag" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="64" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="parentfee" type="xs:string" minOccurs="0" />
+                <xs:element name="internalfee" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="8" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="surrogate" type="xs:decimal" />
+                <xs:element name="product" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="24" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="component" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="24" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="ancquantity" type="xs:decimal" minOccurs="0" />
+                <xs:element name="minquantity" type="xs:decimal" minOccurs="0" />
+                <xs:element name="maxquantity" type="xs:decimal" minOccurs="0" />
+                <xs:element name="minpct" type="xs:decimal" minOccurs="0" />
+                <xs:element name="maxpct" type="xs:decimal" minOccurs="0" />
+                <xs:element name="pctcomponent" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="16" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="location" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="32" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="deemgravity" type="xs:decimal" minOccurs="0" />
+                <xs:element name="stdgravity" type="xs:decimal" minOccurs="0" />
+                <xs:element name="gravityunit" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="4" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="regradediff" type="xs:decimal" />
+                <xs:element name="escalation" type="xs:boolean" minOccurs="0" />
+                <xs:element name="contractcategory" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="8" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="indexprecision" type="xs:decimal" minOccurs="0" />
+                <xs:element name="priceprecision" type="xs:decimal" minOccurs="0" />
+                <xs:element name="roundmethod" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="8" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="paymentterms" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="32" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="taxable" type="xs:boolean" minOccurs="0" />
+                <xs:element name="taxlocation" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="32" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="invoice" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="16" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="invoicedate" msdata:DateTimeMode="Unspecified" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="interestindex" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="32" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="discountfactor" type="xs:decimal" minOccurs="0" />
+                <xs:element name="dayconvention" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="16" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="interest" type="xs:decimal" />
+                <xs:element name="interestrate" type="xs:decimal" />
+                <xs:element name="spreadreference" type="xs:boolean" />
+                <xs:element name="feestatus" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="8" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="aggregateshipment" type="xs:boolean" />
+                <xs:element name="aggregatemeasure" type="xs:boolean" />
+                <xs:element name="feecontract" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="16" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="plantquantitytype" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="32" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="tier" type="xs:decimal" />
+                <xs:element name="tiermethod" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="16" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="tierquantity" type="xs:decimal" minOccurs="0" />
+                <xs:element name="tiertimeunit" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="8" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="contracttier" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="16" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="triggerparty" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="32" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="triggerstatus" type="xs:boolean" minOccurs="0" />
+                <xs:element name="postprice" type="xs:decimal" minOccurs="0" />
+                <xs:element name="tiertype" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="16" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="tierunit" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="16" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="begtime" msdata:DateTimeMode="Unspecified" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="endtime" msdata:DateTimeMode="Unspecified" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="timeperiod" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="32" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="timeperiodbegtime" msdata:DateTimeMode="Unspecified" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="timeperiodendtime" msdata:DateTimeMode="Unspecified" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="timeperioddaytype" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="16" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="priceevent" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="16" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="eventdate" msdata:DateTimeMode="Unspecified" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="timemethod" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="8" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="tsperiod" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="16" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="promptoffsetdays" type="xs:decimal" minOccurs="0" />
+                <xs:element name="promptmonth" type="xs:decimal" minOccurs="0" />
+                <xs:element name="currencytimeperiod" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="32" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="rollmonth" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="32" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="currencyresolutiontype" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="32" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="dsthandling" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="8" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="fee_h_version" type="xs:long" default="-1" minOccurs="0" />
+                <xs:element name="feeproduct_h_version" type="xs:long" default="-1" minOccurs="0" />
+                <xs:element name="feetimeperiod_h_version" type="xs:long" default="-1" minOccurs="0" />
+                <xs:element name="feesettlement_h_version" type="xs:long" default="-1" minOccurs="0" />
+                <xs:element name="feetier_h_version" type="xs:long" default="-1" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="fee">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="fee">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="8" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="dbcolumn" default="TEMPLATE">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="16" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="dbvalue">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="16" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="feemode" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="8" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="feetype" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="32" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="description" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="32" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="company" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="32" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="counterparty" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="32" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="paystatus" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="4" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="optionpricetype" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="16" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="feecode" type="xs:decimal" minOccurs="0" />
+                <xs:element name="unit" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="8" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="priceindex" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="32" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="pricelevel">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="16" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="pricediff" type="xs:decimal" minOccurs="0" />
+                <xs:element name="currency" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="8" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="feemethod" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="16" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="factor" type="xs:decimal" />
+                <xs:element name="quantityfactor" type="xs:decimal" minOccurs="0" />
+                <xs:element name="indexfactor" type="xs:decimal" minOccurs="0" />
+                <xs:element name="feetier" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="16" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="feeproduct" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="16" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="feetimeperiod" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="16" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="feesettlement" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="16" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="feetag" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="64" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="functiontag" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="64" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="internalfee" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="8" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="creationname">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="64" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="creationdate" msdata:DateTimeMode="Unspecified" type="xs:dateTime" />
+                <xs:element name="revisionname" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="64" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="revisiondate" msdata:DateTimeMode="Unspecified" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="h_version" type="xs:long" default="-1" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="feeproduct">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="dbcolumn">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="16" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="dbvalue">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="16" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="feeproduct">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="16" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="surrogate" type="xs:decimal" />
+                <xs:element name="product" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="24" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="component" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="24" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="ancquantity" type="xs:decimal" minOccurs="0" />
+                <xs:element name="minquantity" type="xs:decimal" minOccurs="0" />
+                <xs:element name="maxquantity" type="xs:decimal" minOccurs="0" />
+                <xs:element name="minpct" type="xs:decimal" minOccurs="0" />
+                <xs:element name="maxpct" type="xs:decimal" minOccurs="0" />
+                <xs:element name="pctcomponent" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="16" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="location" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="32" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="deemgravity" type="xs:decimal" minOccurs="0" />
+                <xs:element name="stdgravity" type="xs:decimal" minOccurs="0" />
+                <xs:element name="gravityunit" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="4" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="regradediff" type="xs:decimal" />
+                <xs:element name="escalation" type="xs:boolean" minOccurs="0" />
+                <xs:element name="contractcategory" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="8" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="creationname">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="64" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="creationdate" msdata:DateTimeMode="Unspecified" type="xs:dateTime" />
+                <xs:element name="revisionname" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="64" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="revisiondate" msdata:DateTimeMode="Unspecified" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="h_version" type="xs:long" default="-1" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="feesettlement">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="dbcolumn">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="16" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="dbvalue">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="16" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="feesettlement">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="16" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="indexprecision" type="xs:decimal" minOccurs="0" />
+                <xs:element name="priceprecision" type="xs:decimal" minOccurs="0" />
+                <xs:element name="roundmethod" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="8" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="paymentterms" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="32" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="taxable" type="xs:boolean" minOccurs="0" />
+                <xs:element name="taxlocation" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="32" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="invoice" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="16" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="invoicedate" msdata:DateTimeMode="Unspecified" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="interestindex" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="32" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="discountfactor" type="xs:decimal" minOccurs="0" />
+                <xs:element name="dayconvention" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="16" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="interest" type="xs:decimal" />
+                <xs:element name="interestrate" type="xs:decimal" />
+                <xs:element name="spreadreference" type="xs:boolean" />
+                <xs:element name="feestatus" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="8" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="aggregateshipment" type="xs:boolean" />
+                <xs:element name="aggregatemeasure" type="xs:boolean" />
+                <xs:element name="feecontract" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="16" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="plantquantitytype" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="32" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="creationname">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="64" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="creationdate" msdata:DateTimeMode="Unspecified" type="xs:dateTime" />
+                <xs:element name="revisionname" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="64" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="revisiondate" msdata:DateTimeMode="Unspecified" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="h_version" type="xs:long" default="-1" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="feetimeperiod">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="dbcolumn">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="16" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="dbvalue">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="16" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="feetimeperiod">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="16" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="begtime" msdata:DateTimeMode="Unspecified" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="endtime" msdata:DateTimeMode="Unspecified" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="timeperiod" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="32" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="timeperiodbegtime" msdata:DateTimeMode="Unspecified" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="timeperiodendtime" msdata:DateTimeMode="Unspecified" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="timeperioddaytype" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="16" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="priceevent" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="16" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="eventdate" msdata:DateTimeMode="Unspecified" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="timemethod" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="8" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="tsperiod" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="16" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="promptoffsetdays" type="xs:decimal" minOccurs="0" />
+                <xs:element name="promptmonth" type="xs:decimal" minOccurs="0" />
+                <xs:element name="currencytimeperiod" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="32" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="rollmonth" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="32" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="currencyresolutiontype" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="32" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="creationname">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="64" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="creationdate" msdata:DateTimeMode="Unspecified" type="xs:dateTime" />
+                <xs:element name="revisionname" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="64" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="revisiondate" msdata:DateTimeMode="Unspecified" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="dsthandling" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="8" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="h_version" type="xs:long" default="-1" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="feetier">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="dbcolumn">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="16" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="dbvalue">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="16" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="feetier">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="16" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="tier" type="xs:decimal" />
+                <xs:element name="tiermethod" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="16" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="tierquantity" type="xs:decimal" minOccurs="0" />
+                <xs:element name="tiertimeunit" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="8" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="contracttier" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="16" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="triggerparty" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="32" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="triggerstatus" type="xs:boolean" minOccurs="0" />
+                <xs:element name="postprice" type="xs:decimal" minOccurs="0" />
+                <xs:element name="tiertype" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="16" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="tierunit" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="16" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="creationname">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="64" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="creationdate" msdata:DateTimeMode="Unspecified" type="xs:dateTime" />
+                <xs:element name="revisionname" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="64" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="revisiondate" msdata:DateTimeMode="Unspecified" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="h_version" type="xs:long" default="-1" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="templatedefault">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="template">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="32" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="viewpane">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="32" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="defaultrow" type="xs:decimal" />
+                <xs:element name="viewcolumn">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="64" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="viewdefault" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="64" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="creationname">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="64" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="creationdate" msdata:DateTimeMode="Unspecified" type="xs:dateTime" />
+                <xs:element name="revisionname" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="64" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="revisiondate" msdata:DateTimeMode="Unspecified" type="xs:dateTime" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="viewselect">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="viewname">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="64" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="viewselect">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="64" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="creationname">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="64" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="creationdate" msdata:DateTimeMode="Unspecified" type="xs:dateTime" />
+                <xs:element name="revisionname" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="64" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="revisiondate" msdata:DateTimeMode="Unspecified" type="xs:dateTime" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="viewselectcriteria">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="viewname">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="64" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="viewselect">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="64" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="surrogate" type="xs:decimal" />
+                <xs:element name="logoperator" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="8" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="openparen" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="8" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="dbtable" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="32" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="dbcolumn" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="32" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="reloperator" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="8" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="value" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="1024" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="closeparen" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="8" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="creationname">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="64" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="creationdate" msdata:DateTimeMode="Unspecified" type="xs:dateTime" />
+                <xs:element name="revisionname" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="64" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="revisiondate" msdata:DateTimeMode="Unspecified" type="xs:dateTime" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="viewchart">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="viewname">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="64" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="viewpane">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="64" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="viewcolumn">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="64" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="axis" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="4" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="axislocation" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="16" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="axistitle" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="64" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="axisscale" type="xs:decimal" minOccurs="0" />
+                <xs:element name="axisminimum" type="xs:decimal" minOccurs="0" />
+                <xs:element name="axismaximum" type="xs:decimal" minOccurs="0" />
+                <xs:element name="charttype" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="32" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="series" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="64" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="color" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="64" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="datalabel" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="8" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="legend" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="8" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="creationname">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="64" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="creationdate" msdata:DateTimeMode="Unspecified" type="xs:dateTime" />
+                <xs:element name="revisionname" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="64" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="revisiondate" msdata:DateTimeMode="Unspecified" type="xs:dateTime" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="classevent_code">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="classevent_detail_id" type="xs:decimal" />
+                <xs:element name="code">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="2147483647" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="parameter" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="1024" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="creationname">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="64" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="creationdate" msdata:DateTimeMode="Unspecified" type="xs:dateTime" />
+                <xs:element name="revisionname" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="64" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="revisiondate" msdata:DateTimeMode="Unspecified" type="xs:dateTime" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="classevent_detail">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="classevent_detail_id" type="xs:decimal" />
+                <xs:element name="classevent_header_id" type="xs:decimal" />
+                <xs:element name="status">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="8" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="name">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="64" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="seq" type="xs:decimal" />
+                <xs:element name="description">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="creationname">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="64" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="creationdate" msdata:DateTimeMode="Unspecified" type="xs:dateTime" />
+                <xs:element name="revisionname" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="64" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="revisiondate" msdata:DateTimeMode="Unspecified" type="xs:dateTime" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="classevent_header">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="classevent_header_id" type="xs:decimal" />
+                <xs:element name="status">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="8" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="description" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="class" msprop:Generator_ColumnPropNameInTable="classColumn" msprop:Generator_ColumnVarNameInTable="columnclass" msprop:Generator_UserColumnName="class">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="tier">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="8" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="action">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="128" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="creationname">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="64" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="creationdate" msdata:DateTimeMode="Unspecified" type="xs:dateTime" />
+                <xs:element name="revisionname" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="64" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="revisiondate" msdata:DateTimeMode="Unspecified" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="assemblystore" type="xs:string" minOccurs="0" />
+                <xs:element name="name" type="xs:string" minOccurs="0" />
+                <xs:element name="code" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="classevent">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="status" type="xs:string" minOccurs="0" />
+                <xs:element name="name" type="xs:string" minOccurs="0" />
+                <xs:element name="description" type="xs:string" minOccurs="0" />
+                <xs:element name="class" type="xs:string" minOccurs="0" />
+                <xs:element name="tier" type="xs:string" minOccurs="0" />
+                <xs:element name="action" type="xs:string" minOccurs="0" />
+                <xs:element name="seq" type="xs:decimal" minOccurs="0" />
+                <xs:element name="code" type="xs:string" minOccurs="0" />
+                <xs:element name="parameter" type="xs:string" minOccurs="0" />
+                <xs:element name="creationname" type="xs:string" minOccurs="0" />
+                <xs:element name="creationdate" msdata:DateTimeMode="Unspecified" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="revisiondate" msdata:DateTimeMode="Unspecified" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="revisionname" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+      <xs:unique name="VisualModelDSKey1" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//mstns:viewname" />
+        <xs:field xpath="mstns:viewname" />
+      </xs:unique>
+      <xs:unique name="VisualModelDSKey2" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//mstns:viewpane" />
+        <xs:field xpath="mstns:viewname" />
+        <xs:field xpath="mstns:viewpane" />
+      </xs:unique>
+      <xs:unique name="VisualModelDSKey3" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//mstns:viewcolumn" />
+        <xs:field xpath="mstns:viewname" />
+        <xs:field xpath="mstns:viewpane" />
+        <xs:field xpath="mstns:viewcolumn" />
+      </xs:unique>
+      <xs:unique name="VisualModelDSKey4" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//mstns:viewindex" />
+        <xs:field xpath="mstns:viewname" />
+        <xs:field xpath="mstns:viewindex" />
+      </xs:unique>
+      <xs:unique name="VisualModelDSKey5" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//mstns:viewtemplate" />
+        <xs:field xpath="mstns:viewname" />
+        <xs:field xpath="mstns:viewpane" />
+        <xs:field xpath="mstns:viewcolumn" />
+        <xs:field xpath="mstns:value" />
+        <xs:field xpath="mstns:template" />
+      </xs:unique>
+      <xs:unique name="VisualModelDSKey6" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//mstns:viewcriteria" />
+        <xs:field xpath="mstns:viewname" />
+        <xs:field xpath="mstns:surrogate" />
+      </xs:unique>
+      <xs:unique name="viewpanecriteriaKey1" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//mstns:viewpanecriteria" />
+        <xs:field xpath="mstns:viewname" />
+        <xs:field xpath="mstns:viewpane" />
+        <xs:field xpath="mstns:surrogate" />
+      </xs:unique>
+      <xs:unique name="VisualModelDSKey7" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//mstns:class" />
+        <xs:field xpath="mstns:class" />
+      </xs:unique>
+      <xs:unique name="VisualModelDSKey8" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//mstns:classmethod" />
+        <xs:field xpath="mstns:class" />
+        <xs:field xpath="mstns:method" />
+      </xs:unique>
+      <xs:unique name="VisualModelDSKey9" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//mstns:classparameter" />
+        <xs:field xpath="mstns:class" />
+        <xs:field xpath="mstns:parameter" />
+      </xs:unique>
+      <xs:unique name="VisualModelDSKey10" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//mstns:template" />
+        <xs:field xpath="mstns:template" />
+      </xs:unique>
+      <xs:unique name="VisualModelDSKey11" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//mstns:templatecalendar" />
+        <xs:field xpath="mstns:template" />
+        <xs:field xpath="mstns:calendarevent" />
+      </xs:unique>
+      <xs:unique name="VisualModelDSKey12" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//mstns:templatedocument" />
+        <xs:field xpath="mstns:template" />
+        <xs:field xpath="mstns:documenttype" />
+      </xs:unique>
+      <xs:unique name="VisualModelDSKey13" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//mstns:templatepane" />
+        <xs:field xpath="mstns:template" />
+        <xs:field xpath="mstns:viewpane" />
+      </xs:unique>
+      <xs:unique name="VisualModelDSKey14" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//mstns:templatecolumn" />
+        <xs:field xpath="mstns:template" />
+        <xs:field xpath="mstns:viewpane" />
+        <xs:field xpath="mstns:viewcolumn" />
+      </xs:unique>
+      <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//mstns:templatefee" />
+        <xs:field xpath="mstns:template" />
+        <xs:field xpath="mstns:surrogate" />
+      </xs:unique>
+      <xs:unique name="viewcard_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//mstns:viewcard" />
+        <xs:field xpath="mstns:viewname" />
+        <xs:field xpath="mstns:viewpane" />
+        <xs:field xpath="mstns:viewcolumn" />
+      </xs:unique>
+      <xs:unique name="viewpanestyleKey1" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//mstns:viewpanestyle" />
+        <xs:field xpath="mstns:viewname" />
+        <xs:field xpath="mstns:priority" />
+      </xs:unique>
+      <xs:unique name="classmethodparamKey1" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//mstns:classmethodparam" />
+        <xs:field xpath="mstns:class" />
+        <xs:field xpath="mstns:method" />
+        <xs:field xpath="mstns:paramseq" />
+      </xs:unique>
+      <xs:unique name="viewcolumnmethod_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//mstns:viewcolumnmethod" />
+        <xs:field xpath="mstns:viewname" />
+        <xs:field xpath="mstns:viewpane" />
+        <xs:field xpath="mstns:viewcolumn" />
+        <xs:field xpath="mstns:sortseq" />
+      </xs:unique>
+      <xs:unique name="viewcolumnmethodparam_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//mstns:viewcolumnmethodparam" />
+        <xs:field xpath="mstns:viewname" />
+        <xs:field xpath="mstns:viewpane" />
+        <xs:field xpath="mstns:viewcolumn" />
+        <xs:field xpath="mstns:sortseq" />
+        <xs:field xpath="mstns:paramseq" />
+      </xs:unique>
+      <xs:unique name="feedetailKey1" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//mstns:feedetail" />
+        <xs:field xpath="mstns:fee" />
+      </xs:unique>
+      <xs:unique name="feedetail_Constraint1" msdata:ConstraintName="Constraint1">
+        <xs:selector xpath=".//mstns:feedetail" />
+        <xs:field xpath="mstns:fee" />
+        <xs:field xpath="mstns:feetag" />
+      </xs:unique>
+      <xs:unique name="fee_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//mstns:fee" />
+        <xs:field xpath="mstns:fee" />
+      </xs:unique>
+      <xs:unique name="Constraint2">
+        <xs:selector xpath=".//mstns:fee" />
+        <xs:field xpath="mstns:dbcolumn" />
+        <xs:field xpath="mstns:dbvalue" />
+        <xs:field xpath="mstns:feeproduct" />
+      </xs:unique>
+      <xs:unique name="Constraint3">
+        <xs:selector xpath=".//mstns:fee" />
+        <xs:field xpath="mstns:dbcolumn" />
+        <xs:field xpath="mstns:dbvalue" />
+        <xs:field xpath="mstns:feesettlement" />
+      </xs:unique>
+      <xs:unique name="Constraint4">
+        <xs:selector xpath=".//mstns:fee" />
+        <xs:field xpath="mstns:dbcolumn" />
+        <xs:field xpath="mstns:dbvalue" />
+        <xs:field xpath="mstns:feetimeperiod" />
+      </xs:unique>
+      <xs:unique name="Constraint5">
+        <xs:selector xpath=".//mstns:fee" />
+        <xs:field xpath="mstns:dbcolumn" />
+        <xs:field xpath="mstns:dbvalue" />
+        <xs:field xpath="mstns:feetier" />
+      </xs:unique>
+      <xs:unique name="feeproduct_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//mstns:feeproduct" />
+        <xs:field xpath="mstns:dbcolumn" />
+        <xs:field xpath="mstns:dbvalue" />
+        <xs:field xpath="mstns:feeproduct" />
+        <xs:field xpath="mstns:surrogate" />
+      </xs:unique>
+      <xs:unique name="feesettlement_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//mstns:feesettlement" />
+        <xs:field xpath="mstns:dbcolumn" />
+        <xs:field xpath="mstns:dbvalue" />
+        <xs:field xpath="mstns:feesettlement" />
+      </xs:unique>
+      <xs:unique name="feetimeperiod_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//mstns:feetimeperiod" />
+        <xs:field xpath="mstns:dbcolumn" />
+        <xs:field xpath="mstns:dbvalue" />
+        <xs:field xpath="mstns:feetimeperiod" />
+      </xs:unique>
+      <xs:unique name="feetier_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//mstns:feetier" />
+        <xs:field xpath="mstns:dbcolumn" />
+        <xs:field xpath="mstns:dbvalue" />
+        <xs:field xpath="mstns:feetier" />
+        <xs:field xpath="mstns:tier" />
+      </xs:unique>
+      <xs:unique name="templatedefault_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//mstns:templatedefault" />
+        <xs:field xpath="mstns:template" />
+        <xs:field xpath="mstns:viewpane" />
+        <xs:field xpath="mstns:defaultrow" />
+        <xs:field xpath="mstns:viewcolumn" />
+      </xs:unique>
+      <xs:unique name="viewselect_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//mstns:viewselect" />
+        <xs:field xpath="mstns:viewname" />
+        <xs:field xpath="mstns:viewselect" />
+      </xs:unique>
+      <xs:unique name="viewselectcriteria_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//mstns:viewselectcriteria" />
+        <xs:field xpath="mstns:viewname" />
+        <xs:field xpath="mstns:viewselect" />
+        <xs:field xpath="mstns:surrogate" />
+      </xs:unique>
+      <xs:unique name="viewchart_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//mstns:viewchart" />
+        <xs:field xpath="mstns:viewname" />
+        <xs:field xpath="mstns:viewpane" />
+        <xs:field xpath="mstns:viewcolumn" />
+      </xs:unique>
+      <xs:unique name="classevent_code_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//mstns:classevent_code" />
+        <xs:field xpath="mstns:classevent_detail_id" />
+      </xs:unique>
+      <xs:unique name="classevent_detail_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//mstns:classevent_detail" />
+        <xs:field xpath="mstns:classevent_detail_id" />
+      </xs:unique>
+      <xs:unique name="classevent_header_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//mstns:classevent_header" />
+        <xs:field xpath="mstns:classevent_header_id" />
+      </xs:unique>
+      <xs:keyref name="viewpane_viewchart" refer="VisualModelDSKey2">
+        <xs:selector xpath=".//mstns:viewchart" />
+        <xs:field xpath="mstns:viewname" />
+        <xs:field xpath="mstns:viewpane" />
+      </xs:keyref>
+      <xs:keyref name="FK_viewselect_viewselectcriteria" refer="viewselect_Constraint1">
+        <xs:selector xpath=".//mstns:viewselectcriteria" />
+        <xs:field xpath="mstns:viewname" />
+        <xs:field xpath="mstns:viewselect" />
+      </xs:keyref>
+      <xs:keyref name="FK_viewname_viewselect" refer="VisualModelDSKey1">
+        <xs:selector xpath=".//mstns:viewselect" />
+        <xs:field xpath="mstns:viewname" />
+      </xs:keyref>
+      <xs:keyref name="FK_template_templatedefault" refer="VisualModelDSKey10">
+        <xs:selector xpath=".//mstns:templatedefault" />
+        <xs:field xpath="mstns:template" />
+      </xs:keyref>
+      <xs:keyref name="fee_feetier" refer="Constraint5">
+        <xs:selector xpath=".//mstns:feetier" />
+        <xs:field xpath="mstns:dbcolumn" />
+        <xs:field xpath="mstns:dbvalue" />
+        <xs:field xpath="mstns:feetier" />
+      </xs:keyref>
+      <xs:keyref name="fee_feetimeperiod" refer="Constraint4">
+        <xs:selector xpath=".//mstns:feetimeperiod" />
+        <xs:field xpath="mstns:dbcolumn" />
+        <xs:field xpath="mstns:dbvalue" />
+        <xs:field xpath="mstns:feetimeperiod" />
+      </xs:keyref>
+      <xs:keyref name="fee_feesettlement" refer="Constraint3">
+        <xs:selector xpath=".//mstns:feesettlement" />
+        <xs:field xpath="mstns:dbcolumn" />
+        <xs:field xpath="mstns:dbvalue" />
+        <xs:field xpath="mstns:feesettlement" />
+      </xs:keyref>
+      <xs:keyref name="fee_feeproduct" refer="Constraint2">
+        <xs:selector xpath=".//mstns:feeproduct" />
+        <xs:field xpath="mstns:dbcolumn" />
+        <xs:field xpath="mstns:dbvalue" />
+        <xs:field xpath="mstns:feeproduct" />
+      </xs:keyref>
+      <xs:keyref name="FK_template_fee" refer="VisualModelDSKey10">
+        <xs:selector xpath=".//mstns:fee" />
+        <xs:field xpath="mstns:dbvalue" />
+      </xs:keyref>
+      <xs:keyref name="FK_template_feedetail" refer="VisualModelDSKey10">
+        <xs:selector xpath=".//mstns:feedetail" />
+        <xs:field xpath="mstns:dbvalue" />
+      </xs:keyref>
+      <xs:keyref name="feedetail_feedetail" refer="feedetail_Constraint1">
+        <xs:selector xpath=".//mstns:feedetail" />
+        <xs:field xpath="mstns:parentfee" />
+        <xs:field xpath="mstns:functiontag" />
+      </xs:keyref>
+      <xs:keyref name="FK_viewcolumnmethod_viewcolumnmethodparam" refer="viewcolumnmethod_Constraint1">
+        <xs:selector xpath=".//mstns:viewcolumnmethodparam" />
+        <xs:field xpath="mstns:viewname" />
+        <xs:field xpath="mstns:viewpane" />
+        <xs:field xpath="mstns:viewcolumn" />
+        <xs:field xpath="mstns:sortseq" />
+      </xs:keyref>
+      <xs:keyref name="FK_viewcolumn_viewcolumnmethod" refer="VisualModelDSKey3">
+        <xs:selector xpath=".//mstns:viewcolumnmethod" />
+        <xs:field xpath="mstns:viewname" />
+        <xs:field xpath="mstns:viewpane" />
+        <xs:field xpath="mstns:viewcolumn" />
+      </xs:keyref>
+      <xs:keyref name="FK_classmethod_classmethodparam" refer="VisualModelDSKey8">
+        <xs:selector xpath=".//mstns:classmethodparam" />
+        <xs:field xpath="mstns:class" />
+        <xs:field xpath="mstns:method" />
+      </xs:keyref>
+      <xs:keyref name="FK_viewname_viewpanestyle" refer="VisualModelDSKey1">
+        <xs:selector xpath=".//mstns:viewpanestyle" />
+        <xs:field xpath="mstns:viewname" />
+      </xs:keyref>
+      <xs:keyref name="viewpaneviewcard" refer="VisualModelDSKey2">
+        <xs:selector xpath=".//mstns:viewcard" />
+        <xs:field xpath="mstns:viewname" />
+        <xs:field xpath="mstns:viewpane" />
+      </xs:keyref>
+      <xs:keyref name="FK_template_templatefee" refer="VisualModelDSKey10">
+        <xs:selector xpath=".//mstns:templatefee" />
+        <xs:field xpath="mstns:template" />
+      </xs:keyref>
+      <xs:keyref name="templatetemplatecolumn" refer="VisualModelDSKey10">
+        <xs:selector xpath=".//mstns:templatecolumn" />
+        <xs:field xpath="mstns:template" />
+      </xs:keyref>
+      <xs:keyref name="templatetemplatepane" refer="VisualModelDSKey10">
+        <xs:selector xpath=".//mstns:templatepane" />
+        <xs:field xpath="mstns:template" />
+      </xs:keyref>
+      <xs:keyref name="templatetemplatedocument" refer="VisualModelDSKey10">
+        <xs:selector xpath=".//mstns:templatedocument" />
+        <xs:field xpath="mstns:template" />
+      </xs:keyref>
+      <xs:keyref name="templatetemplatecalendar" refer="VisualModelDSKey10">
+        <xs:selector xpath=".//mstns:templatecalendar" />
+        <xs:field xpath="mstns:template" />
+      </xs:keyref>
+      <xs:keyref name="classclassparameter" refer="VisualModelDSKey7">
+        <xs:selector xpath=".//mstns:classparameter" />
+        <xs:field xpath="mstns:class" />
+      </xs:keyref>
+      <xs:keyref name="classclassmethod" refer="VisualModelDSKey7">
+        <xs:selector xpath=".//mstns:classmethod" />
+        <xs:field xpath="mstns:class" />
+      </xs:keyref>
+      <xs:keyref name="FK_viewpane_viewpanecriteria" refer="VisualModelDSKey2">
+        <xs:selector xpath=".//mstns:viewpanecriteria" />
+        <xs:field xpath="mstns:viewname" />
+        <xs:field xpath="mstns:viewpane" />
+      </xs:keyref>
+      <xs:keyref name="viewnameviewcriteria" refer="VisualModelDSKey1">
+        <xs:selector xpath=".//mstns:viewcriteria" />
+        <xs:field xpath="mstns:viewname" />
+      </xs:keyref>
+      <xs:keyref name="FK_viewcolumn_viewtemplate" refer="VisualModelDSKey3">
+        <xs:selector xpath=".//mstns:viewtemplate" />
+        <xs:field xpath="mstns:viewname" />
+        <xs:field xpath="mstns:viewpane" />
+        <xs:field xpath="mstns:viewcolumn" />
+      </xs:keyref>
+      <xs:keyref name="FK_viewname_viewtemplate" refer="VisualModelDSKey1">
+        <xs:selector xpath=".//mstns:viewtemplate" />
+        <xs:field xpath="mstns:viewname" />
+      </xs:keyref>
+      <xs:keyref name="viewnameviewindex" refer="VisualModelDSKey1">
+        <xs:selector xpath=".//mstns:viewindex" />
+        <xs:field xpath="mstns:viewname" />
+      </xs:keyref>
+      <xs:keyref name="viewpaneviewcolumn" refer="VisualModelDSKey2">
+        <xs:selector xpath=".//mstns:viewcolumn" />
+        <xs:field xpath="mstns:viewname" />
+        <xs:field xpath="mstns:viewpane" />
+      </xs:keyref>
+      <xs:keyref name="viewnameviewpane" refer="VisualModelDSKey1">
+        <xs:selector xpath=".//mstns:viewpane" />
+        <xs:field xpath="mstns:viewname" />
+      </xs:keyref>
+    </xs:element>
+    <xs:annotation>
+      <xs:appinfo>
+        <msdata:Relationship name="FK__classeven__class__1BCA83E2" msdata:parent="classevent_detail" msdata:child="classevent_code" msdata:parentkey="classevent_detail_id" msdata:childkey="classevent_detail_id" />
+        <msdata:Relationship name="FK__classeven__class__1CBEA81B" msdata:parent="classevent_header" msdata:child="classevent_detail" msdata:parentkey="classevent_header_id" msdata:childkey="classevent_header_id" />
+      </xs:appinfo>
+    </xs:annotation>
+  </xs:schema>
+  <classevent>
+    <status>Enabled</status>
+    <name>SAPInterface - Process</name>
+    <description>SAPInterface-INDRA-Process methods</description>
+    <class>SAPInterfaceProcess</class>
+    <tier>Server</tier>
+    <action>SourceFile</action>
+    <seq>826</seq>
+    <code>using System;
+using Allegro;
+
+using System.Data;
+using AllegroWeb.ProxyClass.PIWS;
+using AllegroWeb.ProxyClass.SAPInterface;
+using System.Collections.Generic;
+using System.Linq;
+using System.Xml.Serialization;
+using Allegro.Message;
+using GemBox.Spreadsheet;
+using Allegro.Core.Server.Grid;
+using Allegro.Core.Criteria;
+using Allegro.Core.Server.Data;
+using Allegro.Core.Security;
+using InterfaceObjects.Horizon_envio_facturas;
+using InterfaceObjects.Horizon_cobrospagos_response;
+using InterfaceObjects.Horizon_counterparty_facturas;
+
+namespace Allegro.ClassEvents
+{
+    public class SAPInterfaceProcess
+    {
+        public static void SendInvoices(SAPInterfaceHelper.SendInvoiceType sendType)
+        {
+            ProcessLog processLog = new ProcessLog();
+            processLog.AddProcessLog("SAPInterface", "SendInvoices", DateTime.Now, ProcessLog.StatusProcess.RUNNING);
+            processLog.SaveProcessLog();
+            try
+            {
+                DataSet invoicesDataSet = SAPInterfaceData.ObtainInvoicesDataSet(processLog, sendType);
+                SendInvoicesProcess(processLog, invoicesDataSet);
+                processLog.UpdateProcessLogStatus(ProcessLog.StatusProcess.SUCCESS);
+                processLog.SaveProcessLog();
+            }
+            catch (Exception exception)
+            {
+                if (sendType != SAPInterfaceHelper.SendInvoiceType.Manual)
+                    GridLogger.Log("Error", exception.Message, "SendInvoices");
+                
+                processLog.AddProcessLogDetail("SendInvoices", exception.Message);
+                processLog.UpdateProcessLogStatus(ProcessLog.StatusProcess.FAILED);
+                processLog.SaveProcessLog();
+            }
+        }
+        
+        private static void SendInvoicesProcess(ProcessLog processLog, DataSet invoicesDataSet)
+        {
+            List&lt;DT_HORIZON_INVOICESFactura&gt; invoiceList = new List&lt;DT_HORIZON_INVOICESFactura&gt;();
+            
+            foreach (DataRow invoiceRow in invoicesDataSet.Tables["invoice"].Rows)
+            {
+                DataRow[] invoiceDetailRows = invoicesDataSet.Tables["invoiceDetail"].Select("fintransact = " + invoiceRow["fintransact"].ToString(), "balance DESC");
+                DataRow[] invoiceApprovalRows = invoicesDataSet.Tables["invoiceApprovals"].Select("collaboration = " + invoiceRow["collaboration"], "ApprovalLevel  ASC");
+                
+                // if not findetail found for this fintransact, next row
+                if (invoiceDetailRows.Length == 0)
+                    continue;
+                
+                string positionMode = SAPInterfaceHelper.GetPositionMode(invoiceDetailRows);
+                if (string.IsNullOrEmpty(positionMode))
+                {
+                    SAPInterfaceHelper.SetErrorLog(processLog, invoiceRow["fintransact"].ToString(), invoiceRow["subledger"].ToString(), "Not position mode");
+                    invoiceRow["zenvst"] = "Not Sent";
+                    continue;
+                }
+                
+                string settlement = SAPInterfaceHelper.GetSettlement(invoiceDetailRows);
+                if (string.IsNullOrEmpty(settlement))
+                {
+                    SAPInterfaceHelper.SetErrorLog(processLog, invoiceRow["fintransact"].ToString(), invoiceRow["subledger"].ToString(), "Not settlement");
+                    invoiceRow["zenvst"] = "Not Sent";
+                    continue;
+                }
+                
+                
+                processLog.AddProcessLogDetail("SendInvoices", "Subledger passed to Get the interfacetype is - " + invoiceRow["subledger"].ToString());
+                processLog.AddProcessLogDetail("SendInvoices", "Position Mode passed to Get the interfacetype is - " + positionMode);
+                processLog.AddProcessLogDetail("SendInvoices", "Settlement passed to Get the interfacetype is - " + settlement);
+                processLog.AddProcessLogDetail("SendInvoices", "Transaction Type passed to Get the interfacetype is - " + invoiceRow["transactiontype"].ToString());
+                
+                string interfaceType = SAPInterfaceHelper.GetInterfaceType(invoicesDataSet.Tables["interfaceTypes"], invoiceRow["subledger"].ToString(), positionMode, settlement, invoiceRow["transactiontype"].ToString());
+                
+                if (string.IsNullOrEmpty(interfaceType))
+                {
+                    SAPInterfaceHelper.SetErrorLog(processLog, invoiceRow["fintransact"].ToString(), invoiceRow["subledger"].ToString(), "Not interface type");
+                    invoiceRow["zenvst"] = "Not Sent";
+                    continue;
+                }
+                //Bug 155239: Production Issue: SAP invoice interface - brokers not sending
+                else
+                {
+                    processLog.AddProcessLogDetail("SendInvoices", "Interface Type returned is - " + interfaceType );
+                }
+                
+                // control no balance error
+                if (!SAPInterfaceHelper.InvoiceCheckBalance(invoiceDetailRows))
+                {
+                    SAPInterfaceHelper.SetErrorLog(processLog, invoiceRow["fintransact"].ToString(), invoiceRow["subledger"].ToString(), "Not balance");
+                    invoiceRow["zenvst"] = "Not Sent";
+                    continue;
+                }
+                
+                // control business product for balance account
+                string business = SAPInterfaceHelper.BalanceAccountCheckBusiness(invoiceDetailRows);
+                //if (string.IsNullOrEmpty(business))
+                    //{
+                    //    SAPInterfaceHelper.SetErrorLog(processLog, invoiceRow["fintransact"].ToString(), invoiceRow["subledger"].ToString(), "unknow business");
+                    //    invoiceRow["zenvst"] = "Not Sent";
+                    //    continue;
+                //}
+                
+                // invoice header
+                
+                //Bug 155239: Production Issue: SAP invoice interface - brokers not sending
+                processLog.AddProcessLogDetail("SendInvoices", "Interface Type sent to Create Invoice Header - " + interfaceType);
+                DT_HORIZON_INVOICESFacturaCabecera invoiceHeader = SAPInterfaceHelper.CreateInvoiceHeader(invoiceRow, interfaceType);
+                
+                List&lt;DT_HORIZON_INVOICESFacturaCuenta&gt; invoiceAccountList = new List&lt;DT_HORIZON_INVOICESFacturaCuenta&gt;();
+                foreach (DataRow invoiceDetailRow in invoiceDetailRows)
+                {
+                    // change interface for accruals "A" or "B"
+                    if (invoiceRow["subledger"].ToString() == "ACCR" &amp;&amp; Convert.ToBoolean(invoiceDetailRow["balance"]) == true)
+                        interfaceType = invoiceHeader.Interface_Type = SAPInterfaceHelper.SetInterfaceTypeForAccrual(interfaceType, Convert.ToDecimal(invoiceDetailRow["credit"]), Convert.ToDecimal(invoiceDetailRow["debit"]));
+                    
+                    //Bug 155239: Production Issue: SAP invoice interface - brokers not sending
+                    processLog.AddProcessLogDetail("SendInvoices", "Set InterfaceType for Accruals returned - " + interfaceType + " AND invoice header interfacetype also changed to " + invoiceHeader.Interface_Type);
+                    
+                    // invoice account
+                    invoiceAccountList.Add(SAPInterfaceHelper.CreateInvoiceAccount(invoiceDetailRow, interfaceType, invoiceRow["ctcnumber"].ToString(), business));
+                }
+                
+                //Getting invoice approvals
+                List&lt;DT_HORIZON_INVOICESFacturaAprobadores&gt; invoiceApprovalList = new List&lt;DT_HORIZON_INVOICESFacturaAprobadores&gt;();
+                
+                if (invoiceApprovalRows != null)
+                {
+                    foreach (DataRow invoiceApproval in invoiceApprovalRows)
+                        invoiceApprovalList.Add(SAPInterfaceHelper.CreateInvoiceApproval(invoiceApproval));
+                }
+                
+                // add invoice to list
+                invoiceList.Add(new DT_HORIZON_INVOICESFactura() { Cabecera = invoiceHeader, Cuenta = invoiceAccountList.ToArray(), Aprobadores = invoiceApprovalList.ToArray() });
+                
+                // update status to sent
+                invoiceRow["zenvst"] = "Sent"; invoiceRow["zenvoy"] = 0;
+                SAPInterfaceHelper.SetInterfaceReg(invoicesDataSet.Tables["zinvreg"], invoiceRow["fintransact"].ToString(), DateTime.Now, "Send", interfaceType);
+            }
+            
+            // if no invoices to sent then return
+            if (invoiceList.Count == 0)
+            {
+                processLog.AddProcessLogDetail("SendInvoices", "No invoices to send");
+                processLog.UpdateProcessLogStatus(ProcessLog.StatusProcess.SUCCESS);
+                processLog.SaveProcessLog();
+            }
+            else
+            {
+                //Export invoice formats to XML
+                //foreach (DT_HORIZON_INVOICESFactura invoice in invoiceList)
+                    //{
+                    
+                    //    //invoice.title = "Serialization Overview";
+                    //    XmlSerializer writer =    new XmlSerializer(typeof(DT_HORIZON_INVOICESFactura));
+                    //    string folderpath = @"\\sshoutwdat02.la.gr.repsolypf.com\horizon\Reports\OutputPayload\payload" + invoice.Cabecera.Invoice_ID + ".xml";
+                    //    System.IO.FileStream file = System.IO.File.Create(folderpath);
+                    //    writer.Serialize(file, invoice);
+                    //    file.Close();
+                    
+                //}
+                
+                // Send invoices to SAP
+                ProcessLog plog = new ProcessLog();
+                plog.AddProcessLog("SAPInterface", "SendInvoices In Batches", DateTime.Now, ProcessLog.StatusProcess.RUNNING);
+                plog.SaveProcessLog();
+                int i = 1;
+                int num = 0;
+                List&lt;DT_HORIZON_INVOICESFactura&gt; subinvoiceList = new List&lt;DT_HORIZON_INVOICESFactura&gt;();
+                
+                foreach (DT_HORIZON_INVOICESFactura item in invoiceList)
+                {
+                    subinvoiceList.Add(item);
+                    i++;
+                    if (i == 10)
+                    {
+                        SAPInterfaceHelper.SendInvoicesToSAP(subinvoiceList);
+                        System.Threading.Thread.Sleep(2000);
+                        num = num + 10;
+                        plog.AddProcessLogDetail("SendInvoices In Batches", num + " Invoices have been sent");
+                        plog.SaveProcessLog();
+                        subinvoiceList.Clear();
+                        i = 0;
+                    }
+                }
+                if (subinvoiceList.Count &gt; 0)
+                {
+                    SAPInterfaceHelper.SendInvoicesToSAP(subinvoiceList);
+                    plog.AddProcessLogDetail("SendInvoices In Batches", subinvoiceList.Count + " Invoices have been sent");
+                    plog.SaveProcessLog();
+                }
+                plog.UpdateProcessLogStatus(ProcessLog.StatusProcess.SUCCESS);
+                plog.SaveProcessLog();
+                
+                foreach (DT_HORIZON_INVOICESFactura invoice in invoiceList)
+                {
+                    processLog.AddProcessLogDetail("SendInvoices", "Invoices sender: " + invoice.Cabecera.Invoice_ID + " " + invoice.Cabecera.Interface_Type);
+                    processLog.SaveProcessLog();
+                }
+                
+            }
+            
+            // Update allegro zfintransact and fintransact
+            string strInvoices = SAPInterfaceHelper.strFintransact(invoicesDataSet.Tables["invoice"]);
+            DataSet updateDataSet = SAPInterfaceData.ObtainFintransactDataSetByInvoiceList(strInvoices);
+            updateDataSet.Merge(invoicesDataSet.Tables["zinvreg"]);
+            
+            foreach (DataRow invoiceRow in invoicesDataSet.Tables["invoice"].Rows)
+            {
+                DataRow fintransactRow = SAPInterfaceHelper.FindRow(updateDataSet.Tables["fintransact"], "fintransact", invoiceRow["fintransact"].ToString());
+                DataRow zfintransactRow = SAPInterfaceHelper.FindRow(updateDataSet.Tables["zfintransact"], "fintransact", invoiceRow["fintransact"].ToString());
+                
+                fintransactRow["zenvst"] = invoiceRow["zenvst"];
+                zfintransactRow["zenvst"] = invoiceRow["zenvst"];
+                zfintransactRow["zenvoy"] = 0;
+            }
+            
+            Allegro.Web.MainWS mainWS = new Allegro.Web.MainWS();
+            mainWS.UpdateData(updateDataSet, new SelectCriteria());
+            processLog.AddProcessLogDetail("SendInvoices", "End process SendInvoices");
+            processLog.SaveProcessLog();
+        }
+        
+        public static void CollectACK(string timeStamp, string verb, string idTransaction, string codError, string descripcion, string interfaceType, string CTCNumber)
+        {
+            Allegro.Web.MainWS mWS = new Allegro.Web.MainWS();
+            ProcessLog processLog = new ProcessLog();
+            processLog.AddProcessLog("SAPInterface", "CollectACK", DateTime.Now, ProcessLog.StatusProcess.RUNNING);
+            processLog.SaveProcessLog();
+            
+            string ackString = string.Format("timeStamp:{0}, verb:{1}, idTransaction:{2}, codError:{3}, description:{4}, interfaceType:{5}, CTCNumber:{6}",
+            timeStamp, verb, idTransaction, codError, descripcion, interfaceType, CTCNumber);
+            processLog.AddProcessLogDetail("CollectACK", ackString);
+            processLog.SaveProcessLog();
+            
+            string status = "OK";
+            try
+            {
+                if (string.IsNullOrEmpty(idTransaction))
+                    throw new Exception("idTransaction is null");
+                
+                switch (codError)
+                {
+                    case "1": status = "Error SAP"; break;
+                    case "2": status = "Error Allegro"; break;
+                    default: status = "OK"; break;
+                }
+                
+                switch (interfaceType)
+                {
+                    case "CP":
+                    {
+                        int ctc = 0;
+                        int.TryParse(CTCNumber, out ctc);
+                        string XP8 = string.Empty; string RP2 = string.Empty;
+                        
+                        switch (SAPInterfaceHelper.GetEnviroment())
+                        {
+                            case "DEV": RP2 = "RD2"; XP8 = "XD8"; break;
+                            case "PRE": RP2 = "RK2"; XP8 = "XK8"; break;
+                            case "PRO": RP2 = "RP2"; XP8 = "XP8"; break;
+                        }
+                        
+                        //Get environment
+                        string environmentSAP = SAPInterfaceHelper.GetSAPEnvironmentFromCollectACK(timeStamp, verb, idTransaction, codError, descripcion, interfaceType, CTCNumber);
+                        //If environmentSAP is unknown based on CollectACK response
+                        if (string.IsNullOrEmpty(environmentSAP))
+                        {
+                            //environmentSAP = SAPInterfaceData.HasSentOkForRP2(idTransaction) ? XP8 : RP2;
+                            throw new Exception(string.Format("Unknown environment for description = '{0}'", descripcion));
+                        }
+                        processLog.AddProcessLogDetail("CollectACK", string.Format("SAP Environment:{0}", environmentSAP));
+                        
+                        //Get company from response
+                        string company = SAPInterfaceHelper.GetCompanyFromCollectACK(timeStamp, verb, idTransaction, codError, descripcion, interfaceType, CTCNumber);
+                        processLog.AddProcessLogDetail("CollectACK", string.Format("Company:{0}", company));
+                        
+                        //Registration of counterparty reception
+                        SAPInterfaceHelper.AppendCounterpartyInterfaceReg(SAPInterfaceData.ObtainCounterpartyByNaics(idTransaction), DateTime.Now, descripcion, interfaceType, processLog);
+                        
+                        //Update zenvoystatus,zrec or zrena of counterparty
+                        string[] rp2Environments = new[] { "RD2", "RK2", "RP2" ,"RL2"};
+                        if (rp2Environments.Contains(environmentSAP))
+                        {
+                            //Update zcounterpartyenvoystatus of counterparty
+                            SAPInterfaceData.UpdateZCounterpartyEnvoyStatus(status, ctc, idTransaction, environmentSAP, company, processLog);
+                            
+                            ////BMTP [12.07.2015] Using UpdateData for Auditory table
+                            DataSet dsCounterparty = new DataSet("counterparty");
+                            string strQuery = "select * from counterparty where naics = '" + idTransaction + "'";
+                            DbHelper.FillDataSet(dsCounterparty, "counterparty", strQuery);
+                            processLog.AddProcessLogDetail("CollectACK", strQuery);
+                            
+                            if (dsCounterparty.Tables["counterparty"].Rows.Count &gt; 0)
+                            {
+                                foreach (DataRow drCounterparty in dsCounterparty.Tables["counterparty"].Rows)
+                                {
+                                    drCounterparty["zenvoystatus"] = status;
+                                    drCounterparty["ctcnumber"] = ((ctc != 0) ? ctc.ToString() : "");
+                                    
+                                    // 01/04/2019 - (SSA)BMR  RITM0031116 - Modify the Send Counterparties to XP8 (SAP) Interface
+                                    if (status.Equals("Error SAP"))
+                                    {
+                                        processLog.AddProcessLogDetail("CollectACK", "Error SAP in counterparty: " + drCounterparty["counterparty"].ToString());
+                                    }
+                                }
+                            }
+                            
+                            if (dsCounterparty.Tables["counterparty"].Rows.Count &gt; 0)
+                            {
+                                DataSet dsOutputCounterparty = new DataSet();
+                                dsOutputCounterparty = mWS.UpdateData(dsCounterparty, new SelectCriteria());
+                                dsOutputCounterparty.AcceptChanges();
+                                processLog.AddProcessLogDetail("CollectACK", "Updatedata");
+                            }
+                            //BMTP end updatedata
+                            
+                        }
+                        else
+                        {
+                            //Response to counterparty sending to XP8
+                            if (string.Equals(company.ToUpper(), "REC"))
+                            {
+                                //Update zcounterpartyenvoystatus of counterparty
+                                SAPInterfaceData.UpdateZCounterpartyEnvoyStatus(status, ctc, idTransaction, environmentSAP, company, processLog);
+                                
+                                ////BMTP [12.09.2015] Using UpdateData for Auditory table
+                                DataSet dsCounterpartyREC = new DataSet("counterparty");
+                                string strQuery = "select * from counterparty where naics = '" + idTransaction + "'";
+                                DbHelper.FillDataSet(dsCounterpartyREC, "counterparty", strQuery);
+                                processLog.AddProcessLogDetail("CollectACK", strQuery);
+                                
+                                if (dsCounterpartyREC.Tables["counterparty"].Rows.Count &gt; 0)
+                                {
+                                    foreach (DataRow drCounterparty in dsCounterpartyREC.Tables["counterparty"].Rows)
+                                    {
+                                        drCounterparty["zrec"] = status;
+                                        drCounterparty["ctcnumber"] = ((ctc != 0) ? ctc.ToString() : "");
+                                        
+                                        // 01/04/2019 - (SSA)BMR  RITM0031116 - Modify the Send Counterparties to XP8 (SAP) Interface
+                                        if (status.Equals("Error SAP"))
+                                        {
+                                            processLog.AddProcessLogDetail("CollectACK", "Error SAP in counterparty: " + drCounterparty["counterparty"].ToString());
+                                        }
+                                    }
+                                }
+                                
+                                if (dsCounterpartyREC.Tables["counterparty"].Rows.Count &gt; 0)
+                                {
+                                    DataSet dsOutputCounterpartyREC = new DataSet();
+                                    dsOutputCounterpartyREC = mWS.UpdateData(dsCounterpartyREC, new SelectCriteria());
+                                    dsOutputCounterpartyREC.AcceptChanges();
+                                    processLog.AddProcessLogDetail("CollectACK", "Updatedata REC");
+                                }
+                                //BMTP end updatedata
+                                
+                                
+                            }
+                            else if (string.Equals(company.ToUpper(), "RENA"))
+                            {
+                                //Update zcounterpartyenvoystatus of counterparty
+                                SAPInterfaceData.UpdateZCounterpartyEnvoyStatus(status, ctc, idTransaction, environmentSAP, company, processLog);
+                                
+                                ////BMTP [12.09.2015] Using UpdateData for Auditory table
+                                DataSet dsCounterpartyRENA = new DataSet("counterparty");
+                                string strQuery = "select * from counterparty where naics = '" + idTransaction + "'";
+                                DbHelper.FillDataSet(dsCounterpartyRENA, "counterparty", strQuery);
+                                processLog.AddProcessLogDetail("CollectACK", strQuery);
+                                
+                                if (dsCounterpartyRENA.Tables["counterparty"].Rows.Count &gt; 0)
+                                {
+                                    foreach (DataRow drCounterparty in dsCounterpartyRENA.Tables["counterparty"].Rows)
+                                    {
+                                        drCounterparty["zrena"] = status;
+                                        drCounterparty["ctcnumber"] = ((ctc != 0) ? ctc.ToString() : "");
+                                        
+                                        // 01/04/2019 - (SSA)BMR  RITM0031116 - Modify the Send Counterparties to XP8 (SAP) Interface
+                                        if (status.Equals("Error SAP"))
+                                        {
+                                            processLog.AddProcessLogDetail("CollectACK", "Error SAP in counterparty: " + drCounterparty["counterparty"].ToString());
+                                        }
+                                    }
+                                }
+                                
+                                if (dsCounterpartyRENA.Tables["counterparty"].Rows.Count &gt; 0)
+                                {
+                                    DataSet dsOutputCounterpartyRENA = new DataSet();
+                                    dsOutputCounterpartyRENA = mWS.UpdateData(dsCounterpartyRENA, new SelectCriteria());
+                                    dsOutputCounterpartyRENA.AcceptChanges();
+                                    processLog.AddProcessLogDetail("CollectACK", "Updatedata RENA");
+                                }
+                                //BMTP end updatedata
+                                
+                            }
+                            else
+                            {
+                                //If response message has not company, the response is of only company pending
+                                string companyPendingXP8 = SAPInterfaceData.ObtainCompanyPendingSentOKXP8(idTransaction, XP8, processLog, "CollectACK");
+                                processLog.AddProcessLogDetail("CollectACK", string.Format("Unknown company in ACK, the company pending to OK is {0}", companyPendingXP8));
+                                processLog.SaveProcessLog();
+                                
+                                if (string.IsNullOrEmpty(companyPendingXP8))
+                                    processLog.AddProcessLogDetail("CollectACK", string.Format("Unknown company pending for this ACK: {0}", ackString));
+                                else if (!(new[] { "REC", "RENA" }).Contains(companyPendingXP8))
+                                    processLog.AddProcessLogDetail("CollectACK", string.Format("Invalid company pending for this ACK: {0}", ackString));
+                                else
+                                processLog.AddProcessLogDetail("CollectACK", string.Format("Empty company from ack response, in Allegro System pending company is {0}", companyPendingXP8));
+                                
+                                //Update zcounterpartyenvoystatus of counterparty
+                                SAPInterfaceData.UpdateZCounterpartyEnvoyStatus(status, ctc, idTransaction, environmentSAP, companyPendingXP8, processLog);
+                                
+                                ////BMTP [12.09.2015] Using UpdateData for Auditory table
+                                DataSet dsCounterpartyZREC = new DataSet("counterparty");
+                                string strQuery = "select * from counterparty where naics = '" + idTransaction + "'";
+                                DbHelper.FillDataSet(dsCounterpartyZREC, "counterparty", strQuery);
+                                processLog.AddProcessLogDetail("CollectACK", strQuery);
+                                
+                                if (dsCounterpartyZREC.Tables["counterparty"].Rows.Count &gt; 0)
+                                {
+                                    foreach (DataRow drCounterparty in dsCounterpartyZREC.Tables["counterparty"].Rows)
+                                    {
+                                        if (string.Equals("REC", companyPendingXP8))
+                                        {
+                                            drCounterparty["zrec"] = status;
+                                        }
+                                        else
+                                        {
+                                            drCounterparty["zrena"] = status;
+                                        }
+                                        drCounterparty["ctcnumber"] = ((ctc != 0) ? ctc.ToString() : "");
+                                        
+                                        // 01/04/2019 - (SSA)BMR  RITM0031116 - Modify the Send Counterparties to XP8 (SAP) Interface
+                                        if (status.Equals("Error SAP"))
+                                        {
+                                            processLog.AddProcessLogDetail("CollectACK", "Error SAP in counterparty: " + drCounterparty["counterparty"].ToString());
+                                        }
+                                    }
+                                }
+                                
+                                if (dsCounterpartyZREC.Tables["counterparty"].Rows.Count &gt; 0)
+                                {
+                                    DataSet dsOutputCounterpartyZREC = new DataSet();
+                                    dsOutputCounterpartyZREC = mWS.UpdateData(dsCounterpartyZREC, new SelectCriteria());
+                                    dsOutputCounterpartyZREC.AcceptChanges();
+                                    processLog.AddProcessLogDetail("CollectACK", "Updatedata REC o RENA");
+                                }
+                                //BMTP end updatedata
+                                
+                                
+                            }
+                        }
+                        
+                        //Send message if counterparty has been sent with errors to SAP
+                        //if (!string.Equals(status, "OK"))
+                            //{
+                            //    MessageMain messageMain = new MessageMain(false);
+                            //    //RD2, RK2, RP2
+                            //    if (descripcion.StartsWith("R"))
+                                //        messageMain.AutoExecute("CounterpartiesSentWrongRP2");
+                            //    //XD8, XK8, XP8
+                            //    else
+                            //    messageMain.AutoExecute("CounterpartiesSentWrongXP8");
+                        //}
+                        //else
+                        //{
+                            //    MessageMain messageMain = new MessageMain(false);
+                            //    // Send message if the counterparty has been sent without errors to RP2
+                            //    if (rp2Environments.Contains(environmentSAP))
+                                //        messageMain.AutoExecute("SendCounterpartiesRP2_OK");
+                            //    // Send message if the counterparty has been sent without errors to XP8 - REC
+                            //    else if (string.Equals(company.ToUpper(), "REC"))
+                                //        messageMain.AutoExecute("SendCounterpartiesXP8_OK_REC");
+                            //    // Send message if the counterparty has been sent without errors to XP8 - RENA
+                            //    else if (string.Equals(company.ToUpper(), "RENA"))
+                                //        messageMain.AutoExecute("SendCounterpartiesXP8_OK_RENA");
+                        //}
+                    }
+                    break;
+                    case "DA":
+                    case "DL":
+                    {
+                        // 2017-01-11 FJCG - Update for mtm entry
+                        DataTable mtmEntry = new DataTable("zmtmentry");
+                        DbAdapter adapter = new DbAdapter();
+                        adapter.Fill(mtmEntry, "SELECT * FROM zmtmentry WHERE ztransactionid = '" + idTransaction + "'");
+                        mtmEntry.Rows[0]["zenvoystatus"] = status;
+                        if (status == "OK")
+                        {
+                            mtmEntry.Rows[0]["zsapdocumentid"] = (descripcion.Contains(":")) ? descripcion.Split(':')[1] : "";
+                            //mtmEntry.Rows[0]["zsapdocumentid"] = descripcion.Split(':')[1];
+                            
+                            mtmEntry.Rows[0]["zapprovalstatus"] = "CLOSED";
+                        }
+                        adapter.Update(mtmEntry);
+                        
+                        // Create reg entry
+                        DataTable mtmReg = new DataTable("zmtmreg");
+                        adapter.Fill(mtmReg, "SELECT * FROM zmtmreg WHERE 1=0");
+                        
+                        DataRow mtmRegRow = mtmReg.NewRow();
+                        mtmRegRow["zfintransact"] = idTransaction;
+                        mtmRegRow["zenvtime"] = DateTime.Now;
+                        mtmRegRow["zuserid"] = ApplicationUser.Current.UserId.ToString();
+                        mtmRegRow["zuser"] = ApplicationUser.Current.UserName.ToString();
+                        mtmRegRow["zinterfacetype"] = interfaceType;
+                        mtmRegRow["zenvdes"] = descripcion;
+                        mtmReg.Rows.Add(mtmRegRow);
+                        adapter.Update(mtmReg);
+                        // FJCG ----------------------------------
+                    }
+                    break;
+                    case "NS":
+                    case "NA":
+                    {
+                        // 2017-04-18 DLH - Update for Netting entry
+                        DataTable mtmEntry = new DataTable("znettingoutentry");
+                        DbAdapter adapter = new DbAdapter();
+                        adapter.Fill(mtmEntry, "SELECT * FROM znettingoutentry WHERE ztransactionid = '" + idTransaction + "'");
+                        mtmEntry.Rows[0]["zenvoystatus"] = status;
+                        if (status == "OK")
+                        {
+                            mtmEntry.Rows[0]["zsapdocumentid"] = (descripcion.Contains(":")) ? descripcion.Split(':')[1] : "";
+                            //mtmEntry.Rows[0]["zsapdocumentid"] = descripcion.Split(':')[1];
+                            mtmEntry.Rows[0]["zapprovalstatus"] = "CLOSED";
+                        }
+                        adapter.Update(mtmEntry);
+                        
+                        // Create reg entry
+                        DataTable mtmReg = new DataTable("zmtmreg");
+                        adapter.Fill(mtmReg, "SELECT * FROM zmtmreg WHERE 1=0");
+                        
+                        DataRow mtmRegRow = mtmReg.NewRow();
+                        mtmRegRow["zfintransact"] = idTransaction;
+                        mtmRegRow["zenvtime"] = DateTime.Now;
+                        mtmRegRow["zuserid"] = ApplicationUser.Current.UserId.ToString();
+                        mtmRegRow["zuser"] = ApplicationUser.Current.UserName.ToString();
+                        mtmRegRow["zinterfacetype"] = interfaceType;
+                        mtmRegRow["zenvdes"] = descripcion;
+                        mtmReg.Rows.Add(mtmRegRow);
+                        adapter.Update(mtmReg);
+                        // DLH ----------------------------------
+                    }
+                    break;
+                    default:
+                    {
+                        DataSet invoiceDS = new DataSet();
+                        DbAdapter adapter = new DbAdapter();
+                        adapter.Fill(invoiceDS, "fintransact", "SELECT * FROM fintransact WHERE fintransact = '" + idTransaction + "'");
+                        invoiceDS.Tables["fintransact"].Rows[0]["zenvst"] = status;
+                        adapter.Fill(invoiceDS, "zfintransact", "SELECT * FROM zfintransact WHERE fintransact = '" + idTransaction + "'");
+                        invoiceDS.Tables["zfintransact"].Rows[0]["zenvst"] = status;
+                        adapter.Update(invoiceDS);
+                        SAPInterfaceHelper.AppendFintransactInterfaceReg(idTransaction, DateTime.Now, descripcion, interfaceType);
+                    }
+                    break;
+                }
+                
+                processLog.UpdateProcessLogStatus(ProcessLog.StatusProcess.SUCCESS);
+                processLog.SaveProcessLog();
+            }
+            catch (Exception exception)
+            {
+                processLog.AddProcessLogDetail("CollectACK", exception.Message);
+                string exceptionTrace = SAPInterfaceHelper.ObtainExceptionTrace(exception);
+                processLog.AddProcessLogDetail("CollectACK", string.Format("Exception trace{0}{1}", Environment.NewLine, exceptionTrace));
+                processLog.UpdateProcessLogStatus(ProcessLog.StatusProcess.FAILED);
+                processLog.SaveProcessLog();
+            }
+        }
+        
+        public static void CashDepositAndPayments(SAPData sapData)
+        {
+            ProcessLog processLog = new ProcessLog();
+            processLog.AddProcessLog("SAPInterface", "CashDepositAndPayments", DateTime.Now, ProcessLog.StatusProcess.RUNNING);
+            processLog.SaveProcessLog();
+            
+            bool sendResponseError = false;
+            string strError = string.Empty;
+            
+            try
+            {
+                if (sapData == null || string.IsNullOrEmpty(sapData.DueDate))
+                    throw new Exception("SAP data is empty");
+                
+                processLog.AddProcessLogDetail("CashDepositAndPayments", "Invoice: " + sapData.Invoice + ", DocNumber: " + sapData.DocNumber + ", Operation: " + sapData.Operation +
+                ", Company: " + sapData.Company + ", PayDepositDate: " + sapData.PayDepositDate + ", DueDate: " + sapData.DueDate + ", BankAccount: " + sapData.BankAccount +
+                ", Currency: " + sapData.Currency + ", AmountCredit: " + sapData.AmountCredit + ", AmountDebit: " + sapData.AmountDebit + ", Year: " + sapData.Year + ", iDoc: " + sapData.IDoc);
+                processLog.SaveProcessLog();
+                
+                if (!string.IsNullOrEmpty(sapData.PayDepositDate) &amp;&amp; sapData.PayDepositDate != "00000000")
+                {
+                    try
+                    {
+                        DateTime payDepositDate = Convert.ToDateTime(sapData.PayDepositDate.Substring(0, 4) + "/" + sapData.PayDepositDate.Substring(4, 2) + "/" + sapData.PayDepositDate.Substring(6, 2));
+                        sapData.PayDepositDate = DbHelper.SqlDate(payDepositDate);
+                    }
+                    catch { sapData.PayDepositDate = "NULL"; }
+                }
+                else
+                sapData.PayDepositDate = "NULL";
+                
+                try
+                {
+                    DateTime DueDate = Convert.ToDateTime(sapData.DueDate.Substring(0, 4) + "/" + sapData.DueDate.Substring(4, 2) + "/" + sapData.DueDate.Substring(6, 2));
+                    sapData.DueDate = DbHelper.SqlDate(DueDate);
+                }
+                catch { throw new Exception("invalid DueDate format"); }
+                
+                sapData.AmountCredit = (string.IsNullOrEmpty(sapData.AmountCredit)) ? "0" : Convert.ToDecimal(sapData.AmountCredit, new System.Globalization.CultureInfo("en-US")).ToString();
+                sapData.AmountDebit = (string.IsNullOrEmpty(sapData.AmountDebit)) ? "0" : Convert.ToDecimal(sapData.AmountDebit, new System.Globalization.CultureInfo("en-US")).ToString();
+                
+                SAPInterfaceData.AddTemporalCashRow(sapData);
+                
+                processLog.UpdateProcessLogStatus(ProcessLog.StatusProcess.SUCCESS);
+                processLog.SaveProcessLog();
+            }
+            catch (Exception exception)
+            {
+                sendResponseError = true;
+                strError = exception.Message;
+                processLog.AddProcessLogDetail("CashDepositAndPayments", exception.Message);
+                processLog.UpdateProcessLogStatus(ProcessLog.StatusProcess.FAILED);
+                processLog.SaveProcessLog();
+            }
+            
+            try
+            {
+                DT_ENVIO_RESP_CDYP_HORIZON response = new DT_ENVIO_RESP_CDYP_HORIZON();
+                response.RESPONSE = (sendResponseError) ? "N" : "S";
+                response.MESSAGE_INFO = (sendResponseError) ? strError : "sucessfull";
+                response.IDOC = sapData.IDoc;
+                
+                // Send invoices to SAP
+                SAPInterfaceHelper.SendCashResponseToSAP(response);
+            }
+            catch (Exception exception)
+            {
+                processLog.AddProcessLogDetail("CashDepositAndPayments", exception.Message);
+                processLog.UpdateProcessLogStatus(ProcessLog.StatusProcess.FAILED);
+                processLog.SaveProcessLog();
+            }
+        }
+        
+        public static void CashDepositAndPaymentsProcess(bool isAutomatic)
+        {
+            ProcessLog processLog = new ProcessLog();
+            processLog.AddProcessLog("SAPInterface", "CashDepositAndPaymentsProcess", DateTime.Now, ProcessLog.StatusProcess.RUNNING);
+            processLog.SaveProcessLog();
+            
+            try
+            {
+                //alarm flag
+                bool sendExceededAlarm = false;
+                bool sendExistsAlarm = false;
+                
+                // AJ Test
+                bool IsOutstandingBalance = false;
+                
+                string tableName = (isAutomatic) ? "ztemporalcash" : "zcash";
+                
+                Allegro.Web.MainWS mainWS = new Allegro.Web.MainWS();
+                
+                //Get data set
+                DataSet cashDepositAndPaymentsDataSet = SAPInterfaceData.ObtainCashDepositAndPaymentsDataSet(processLog, isAutomatic);
+                if (cashDepositAndPaymentsDataSet.Tables[tableName].Rows.Count == 0)
+                {
+                    processLog.UpdateProcessLogStatus(ProcessLog.StatusProcess.SUCCESS);
+                    processLog.AddProcessLogDetail("CashDepositAndPaymentsProcess", "No data for process");
+                    processLog.SaveProcessLog();
+                    return;
+                }
+                
+                foreach (DataRow temporalcashRow in cashDepositAndPaymentsDataSet.Tables[tableName].Rows)
+                {
+                    // if the cash not exists creates a new zcash row only automatic
+                    DataRow cashRow = null;
+                    if (isAutomatic)
+                    {
+                        //If exits one deposit/payment with same zinvoice and docnumber in the zcash table that
+                        //current ztemporalcash row, we will discard this row.
+                        if (SAPInterfaceHelper.FindRow(cashDepositAndPaymentsDataSet.Tables["zcash"]
+                        , r =&gt; string.Equals(r.Field&lt;string&gt;("zinvoice"), temporalcashRow.Field&lt;string&gt;("zinvoice"))
+                            &amp;&amp; string.Equals(r.Field&lt;string&gt;("zdocnumber"), temporalcashRow.Field&lt;string&gt;("zdocnumber"))) != null)
+                        {
+                            processLog.AddProcessLogDetail("CashDepositAndPaymentsProcess", "Deposit/Payment repeated for invoice " + temporalcashRow.Field&lt;string&gt;("zinvoice") + " docnumber " + temporalcashRow.Field&lt;string&gt;("zdocnumber"));
+                            processLog.SaveProcessLog();
+                            temporalcashRow["zcheck"] = 1;
+                            continue;
+                        }
+                        else
+                        cashRow = SAPInterfaceHelper.AppendCashRow(temporalcashRow, cashDepositAndPaymentsDataSet.Tables["zcash"]);
+                    }
+                    else
+                    {
+                        cashRow = temporalcashRow;
+                    }
+                    
+                    // set ztemporalRow check to 1 for not more process
+                    temporalcashRow["zcheck"] = (isAutomatic) ? 1 : 0;
+                    
+                    // if zoperation &lt;&gt; 'CD' AND &lt;&gt; 'CR', error
+                    if (cashRow["zoperation"].ToString() != "CD" &amp;&amp; cashRow["zoperation"].ToString() != "CR")
+                    {
+                        SAPInterfaceHelper.SetCashError(cashRow, "Invalid operation type", mainWS, cashDepositAndPaymentsDataSet);
+                        continue;
+                    }
+                    
+                    // search the invoice into the fintransact, if not found, put error
+                    DataRow invoiceRow = SAPInterfaceHelper.FindRow(cashDepositAndPaymentsDataSet.Tables["invoiceHeader"], r =&gt; r.Field&lt;string&gt;("fintransact") == temporalcashRow["zinvoice"].ToString() &amp;&amp; r.Field&lt;string&gt;("company") == temporalcashRow["zcompany"].ToString());
+                    if (invoiceRow == null)
+                    {
+                        SAPInterfaceHelper.SetCashError(cashRow, "Invoice for this cash receipt/disbursement not found", mainWS, cashDepositAndPaymentsDataSet);
+                        continue;
+                    }
+                    
+                    // check for counterparty
+                    if (invoiceRow["counterparty"] == DBNull.Value || string.IsNullOrEmpty(invoiceRow["counterparty"].ToString()))
+                    {
+                        SAPInterfaceHelper.SetCashError(cashRow, "Invoice counterparty is empty", mainWS, cashDepositAndPaymentsDataSet);
+                        continue;
+                    }
+                    
+                    // check the invoice detail (balance row)
+                        DataRow invoiceDetailRow = SAPInterfaceHelper.FindRow(cashDepositAndPaymentsDataSet.Tables["invoiceDetail"], r =&gt; r.Field&lt;string&gt;("fintransact") == temporalcashRow["zinvoice"].ToString() &amp;&amp; r.Field&lt;string&gt;("company") == temporalcashRow["zcompany"].ToString() &amp;&amp; r.Field&lt;bool&gt;("balance") == true);
+                    if (invoiceDetailRow == null)
+                    {
+                        SAPInterfaceHelper.SetCashError(cashRow, "Balance not found", mainWS, cashDepositAndPaymentsDataSet);
+                        continue;
+                    }
+                    
+                    // if account is null, error
+                    else if (string.IsNullOrEmpty(invoiceDetailRow["account"].ToString()))
+                    {
+                        SAPInterfaceHelper.SetCashError(cashRow, "Balance account is empty", mainWS, cashDepositAndPaymentsDataSet);
+                        continue;
+                    }
+                    
+                    // if glaccount not found, error
+                    //DataRow glAccountRow = SAPInterfaceHelper.FindRow(cashDepositAndPaymentsDataSet.Tables["glaccount"], "sapaccount", temporalcashRow["zbankaccount"].ToString());
+                    DataRow glAccountRow = SAPInterfaceHelper.FindRow(cashDepositAndPaymentsDataSet.Tables["glaccount"], r =&gt; r.Field&lt;string&gt;("sapaccount") == temporalcashRow["zbankaccount"].ToString() &amp;&amp; r.Field&lt;string&gt;("status") == "ACTIVE");
+                    if (glAccountRow == null)
+                    {
+                        SAPInterfaceHelper.SetCashError(cashRow, "GLaccount missing", mainWS, cashDepositAndPaymentsDataSet);
+                        continue;
+                    }
+                    
+                    // check sum of payments/receipts are less than invoice ammount
+                    if (SAPInterfaceHelper.CheckPaymentsReceiptsAmount(cashDepositAndPaymentsDataSet.Tables["findetail"], invoiceDetailRow, cashRow))
+                    {
+                        
+                        // Overpayment Enhancement - When SAP sends an overpayment, do the following steps:
+                        // 1.)	Insert a new record into the zcash table with zcash.zerror = ?Invoice amount exceeded?, same as current state.No new code should be necessary for this step.
+                        
+                        
+                        SAPInterfaceHelper.SetCashError(cashRow, "Invoice amount exceeded", mainWS, cashDepositAndPaymentsDataSet);
+                        sendExceededAlarm = true;
+                        
+                        
+                        // 2.) Validate the outstanding invoice amount by aggregating all successfully created payments compared to the total invoice amount
+                        decimal outstanding_amount = SAPInterfaceHelper.CheckOutstandingInvoiceAmount(cashDepositAndPaymentsDataSet.Tables["findetail"], invoiceDetailRow, cashRow);
+                        decimal overpayment_amount = (invoiceDetailRow.Field&lt;string&gt;("transactiontype") == "AP") ? Convert.ToDecimal(cashRow.Field&lt;string&gt;("zamountcredit"), new System.Globalization.CultureInfo("en-US")) : Convert.ToDecimal(cashRow.Field&lt;string&gt;("zamountdebit"), new System.Globalization.CultureInfo("en-US"));
+                        
+                        
+                        
+                        // 3.) Append new cash receipt/disbursement fintransact row for the outstanding amount
+                        if (outstanding_amount &gt;= 0)
+                        {
+                            // append cash receipt/disbursement fintransact row
+                            DataRow fintransactRow_outstanding = SAPInterfaceHelper.AppendFintransactRow(cashRow, invoiceRow, cashDepositAndPaymentsDataSet.Tables["fintransact"]);
+                            
+                            mainWS.UpdateData(cashDepositAndPaymentsDataSet, new SelectCriteria());
+                            if (cashDepositAndPaymentsDataSet.Tables["DbError"] != null &amp;&amp; cashDepositAndPaymentsDataSet.Tables["DbError"].Rows.Count &gt; 0)
+                                throw new Exception("update ztemporalcash, zcash, fintransact and findetail: " + cashDepositAndPaymentsDataSet.Tables["DbError"].Rows[0]["ErrorMessage"].ToString());
+                            cashDepositAndPaymentsDataSet.AcceptChanges();
+                            
+                            //4.)	Create a new record into the zcash table, showing the new fintransact record was created successfully.
+                            
+                            DataRow cashRow_outstanding = cashDepositAndPaymentsDataSet.Tables["zcash"].NewRow();
+                            cashRow_outstanding["zinvoice"] = cashRow["zinvoice"];
+                            cashRow_outstanding["zamountcredit"] = (invoiceDetailRow.Field&lt;string&gt;("transactiontype") == "AP") ? outstanding_amount : 0;
+                            cashRow_outstanding["zamountdebit"] = (invoiceDetailRow.Field&lt;string&gt;("transactiontype") == "AR") ? outstanding_amount : 0;
+                            cashRow_outstanding["zdocnumber"] = Convert.ToString(Convert.ToInt32(cashRow["zdocnumber"]) + 1);
+                            cashRow_outstanding["zoperation"] = cashRow["zoperation"];
+                            cashRow_outstanding["zcompany"] = cashRow["zcompany"];
+                            cashRow_outstanding["zpaydepositdate"] = cashRow["zpaydepositdate"];
+                            cashRow_outstanding["zduedate"] = cashRow["zduedate"];
+                            cashRow_outstanding["zbankaccount"] = cashRow["zbankaccount"];
+                            cashRow_outstanding["zcurrency"] = cashRow["zcurrency"];
+                            cashRow_outstanding["zresult"] = "Process";
+                            cashRow_outstanding["zerror"] = "OK";
+                            cashRow_outstanding["zcheck"] = false;
+                            cashRow_outstanding["zfintransact"] = fintransactRow_outstanding["fintransact"];
+                            cashRow_outstanding["creationname"] = "Repsol";
+                            cashRow_outstanding["creationdate"] = DateTime.Now;
+                            
+                            
+                            //Details creation
+                            DataRow findetailRow_outstanding = SAPInterfaceHelper.AppendFindetailRow(cashRow_outstanding, invoiceRow, glAccountRow, fintransactRow_outstanding, false, cashDepositAndPaymentsDataSet.Tables["findetail"], -1, invoiceDetailRow);
+                            
+                            // append balance row
+                            DataRow balanceRow_outstanding = SAPInterfaceHelper.AppendFindetailRow(cashRow_outstanding, invoiceRow, glAccountRow, fintransactRow_outstanding, true, cashDepositAndPaymentsDataSet.Tables["findetail"], -2, invoiceDetailRow);
+                            
+                            
+                            
+                            // 5.)	On the same entry shown in step 4, populate the ?overpayment remainder? column with the left over payment amount.
+                            cashRow_outstanding["zremainder"] = Convert.ToDecimal(overpayment_amount - outstanding_amount, new System.Globalization.CultureInfo("en-US"));
+                            
+                            cashDepositAndPaymentsDataSet.Tables["zcash"].Rows.Add(cashRow_outstanding);
+                            
+                            // 6.)	BA?s will create a message event that fires based on the error populated for the remainder.
+                            IsOutstandingBalance = true;
+                            
+                        }
+                        
+                        mainWS.UpdateData(cashDepositAndPaymentsDataSet, new SelectCriteria());
+                        if (cashDepositAndPaymentsDataSet.Tables["DbError"] != null &amp;&amp; cashDepositAndPaymentsDataSet.Tables["DbError"].Rows.Count &gt; 0)
+                            throw new Exception("update ztemporalcash, zcash, fintransact and findetail: " + cashDepositAndPaymentsDataSet.Tables["DbError"].Rows[0]["ErrorMessage"].ToString());
+                        cashDepositAndPaymentsDataSet.AcceptChanges();
+                        
+                        continue;
+                    }
+                    
+                    
+                    // check if found other payment similar and send alert
+                    if (SAPInterfaceHelper.CheckPaymentsReceiptsExists(cashDepositAndPaymentsDataSet.Tables["findetail"], cashRow, invoiceRow))
+                    {
+                        SAPInterfaceHelper.SetCashError(cashRow, "Other disbursement/payment with the same amount are found", mainWS, cashDepositAndPaymentsDataSet);
+                        sendExistsAlarm = true;
+                    }
+                    
+                    
+                    // append cash receipt/disbursement fintransact row
+                    DataRow fintransactRow = SAPInterfaceHelper.AppendFintransactRow(cashRow, invoiceRow, cashDepositAndPaymentsDataSet.Tables["fintransact"]);
+                    
+                    mainWS.UpdateData(cashDepositAndPaymentsDataSet, new SelectCriteria());
+                    if (cashDepositAndPaymentsDataSet.Tables["DbError"] != null &amp;&amp; cashDepositAndPaymentsDataSet.Tables["DbError"].Rows.Count &gt; 0)
+                        throw new Exception("update ztemporalcash, zcash, fintransact and findetail: " + cashDepositAndPaymentsDataSet.Tables["DbError"].Rows[0]["ErrorMessage"].ToString());
+                    cashDepositAndPaymentsDataSet.AcceptChanges();
+                    
+                    //Details creation
+                    DataRow findetailRow = SAPInterfaceHelper.AppendFindetailRow(cashRow, invoiceRow, glAccountRow, fintransactRow, false, cashDepositAndPaymentsDataSet.Tables["findetail"], -1, invoiceDetailRow);
+                    
+                    // append balance row
+                    DataRow balanceRow = SAPInterfaceHelper.AppendFindetailRow(cashRow, invoiceRow, glAccountRow, fintransactRow, true, cashDepositAndPaymentsDataSet.Tables["findetail"], -2, invoiceDetailRow);
+                    
+                    if (!sendExceededAlarm)
+                    {
+                        cashRow["zresult"] = "Process";
+                        cashRow["zerror"] = "OK";
+                        cashRow["zfintransact"] = fintransactRow["fintransact"];
+                    }
+                    
+                    mainWS.UpdateData(cashDepositAndPaymentsDataSet, new SelectCriteria());
+                    if (cashDepositAndPaymentsDataSet.Tables["DbError"] != null &amp;&amp; cashDepositAndPaymentsDataSet.Tables["DbError"].Rows.Count &gt; 0)
+                        throw new Exception("update ztemporalcash, zcash, fintransact and findetail: " + cashDepositAndPaymentsDataSet.Tables["DbError"].Rows[0]["ErrorMessage"].ToString());
+                    cashDepositAndPaymentsDataSet.AcceptChanges();
+                }
+                
+                //Check if send alarm
+                if (sendExceededAlarm)
+                {
+                    MessageMain messageMain = new MessageMain(false);
+                    //messageMain.AutoExecute("DisbursementsPayments");
+                    messageMain.AutoExecute("Cash Disbursement/Payment Error");
+                }
+                
+                //Check if send alarm
+                if (sendExistsAlarm)
+                {
+                    MessageMain messageMain = new MessageMain(false);
+                    messageMain.AutoExecute("DisbursementsPaymentsExists");
+                }
+                
+                processLog.UpdateProcessLogStatus(ProcessLog.StatusProcess.SUCCESS);
+                processLog.SaveProcessLog();
+            }
+            catch (Exception exception)
+            {
+                if (isAutomatic)
+                    GridLogger.Log("Error", exception.Message, "CashDepositAndPaymentsProcess");
+                
+                processLog.AddProcessLogDetail("CashDepositAndPaymentsProcess", exception.Message);
+                processLog.UpdateProcessLogStatus(ProcessLog.StatusProcess.FAILED);
+                processLog.SaveProcessLog();
+            }
+        }
+        
+        public static void Credit()
+        {
+            ProcessLog processLog = new ProcessLog();
+            processLog.AddProcessLog("SAPInterface", "Credit", DateTime.Now, ProcessLog.StatusProcess.RUNNING);
+            processLog.SaveProcessLog();
+            
+            try
+            {
+                SAPInterfaceHelper.WriteLogFile("START");
+                
+                SAPInterfaceHelper.WriteLogFile("ObtainCreditEMailList");
+                DataTable mailListDataTable = SAPInterfaceData.ObtainCreditEmailList("CreditRiskExtractions", processLog);
+                
+                string valuation = SAPInterfaceData.GetCreditValuation();
+                if (!SAPInterfaceHelper.WaitingForValuationProcess(valuation))
+                    throw new Exception("Current valuation process not finished");
+                
+                SAPInterfaceHelper.WriteLogFile("ObtainCreditData");
+                DataTable creditDataTable = SAPInterfaceData.ObtainCreditDataTable(valuation, processLog);
+                
+                DataTable creditResult = SAPInterfaceData.CreditResultDataTable();
+                List&lt;string&gt; companyList = SAPInterfaceHelper.CompanyList(creditDataTable);
+                string[] transactionTypes = new string[] { "AP", "AR" };
+                List&lt;string&gt; ctcNumberList = SAPInterfaceHelper.CtcNumberList(creditDataTable);
+                foreach (string ctcNumber in ctcNumberList)
+                {
+                    foreach (string company in companyList)
+                    {
+                        foreach (string type in transactionTypes)
+                        {
+                            DataRow creditResultRow = creditResult.NewRow();
+                            creditResultRow["ctc"] = ctcNumber;
+                            creditResultRow["company"] = company;
+                            creditResultRow["transactionType"] = type;
+                            
+                            decimal pending = SAPInterfaceHelper.CalculateCreditValue(creditDataTable, ctcNumber, company, ((type == "AR") ? "SELL" : "BUY"), "pending");
+                            decimal delivered = SAPInterfaceHelper.CalculateCreditValue(creditDataTable, ctcNumber, company, ((type == "AR") ? "SELL" : "BUY"), "delivered");
+                            if (pending != 0 || delivered != 0)
+                            {
+                                decimal swap = SAPInterfaceHelper.CalculateCreditValue(creditDataTable, ctcNumber, company, "SWAP", "pending");
+                                if (type == "AR" &amp;&amp; swap &gt; 0 || type == "AP" &amp;&amp; swap &lt; 0)
+                                    
+                                pending += swap;
+                                
+                                swap = SAPInterfaceHelper.CalculateCreditValue(creditDataTable, ctcNumber, company, "SWAP", "delivered");
+                                if (type == "AR" &amp;&amp; swap &gt; 0 || type == "AP" &amp;&amp; swap &lt; 0)
+                                    
+                                delivered += swap;
+                                
+                                pending = (type == "AR") ? pending * -1 : pending;
+                                delivered = (type == "AR") ? delivered * -1 : delivered;
+                                
+                                creditResultRow["pending"] = pending.ToString(System.Globalization.CultureInfo.CurrentCulture);
+                                creditResultRow["delivered"] = delivered.ToString(System.Globalization.CultureInfo.CurrentCulture);
+                                creditResult.Rows.Add(creditResultRow);
+                            }
+                        }
+                    }
+                }
+                
+                string resultFilePath = System.IO.Path.Combine(SAPInterfaceData.GetCreditDestinationFiles(), "AllegroSAP_" + DateTime.Now.ToString("yyyyMMdd") + ".txt");
+                SAPInterfaceHelper.WriteCSVFile(resultFilePath, creditResult);
+                SAPInterfaceHelper.WriteLogFile("END");
+                //Log
+                processLog.UpdateProcessLogStatus(ProcessLog.StatusProcess.SUCCESS);
+                processLog.SaveProcessLog();
+            }
+            catch (Exception exception)
+            {
+                GridLogger.Log("Error", exception.Message, "Credit");
+                SAPInterfaceHelper.WriteLogFile("Error: " + exception.Message);
+                SAPInterfaceHelper.WriteLogFile("END with errors");
+                processLog.AddProcessLogDetail("Credit", exception.Message);
+                processLog.UpdateProcessLogStatus(ProcessLog.StatusProcess.FAILED);
+                processLog.SaveProcessLog();
+            }
+        }
+        
+        public static void SendCounterparties(string[] counterparties, DataTable companyDt)
+        {
+            ProcessLog processLog = new ProcessLog();
+            processLog.AddProcessLog("SAPInterface", "SendCounterparties", DateTime.Now, ProcessLog.StatusProcess.RUNNING);
+            processLog.SaveProcessLog();
+            
+            try
+            {
+                string strCounterparties = "'" + counterparties.ToList().Aggregate((buffer, next) =&gt; buffer + "','" + next) + "'";
+                processLog.AddProcessLogDetail("SendCounterparties", "Counterparties to send: " + strCounterparties);
+                processLog.SaveProcessLog();
+                
+                string RP2 = string.Empty;
+                string XP8 = string.Empty;
+                
+                //switch (SAPInterfaceHelper.GetEnviroment(processLog, "SendCounterparties"))
+                    switch (SAPInterfaceHelper.GetEnviroment(null, string.Empty))
+                {
+                    case "DEV": RP2 = "RD2"; XP8 = "XD8"; break;
+                    case "PRE": RP2 = "RK2"; XP8 = "XK8"; break;
+                    case "PRO": RP2 = "RP2"; XP8 = "XP8"; break;
+                }
+                
+                List&lt;DT_HORIZON_COUNTERPARTYCounterpartyObject&gt; counterpartiesList = new List&lt;DT_HORIZON_COUNTERPARTYCounterpartyObject&gt;();
+                //Get dataset with counterparties
+                DataSet counterpartyDataSet = SAPInterfaceData.ObtainCounterpartiesDataSet(processLog, strCounterparties);
+                //Save in a flag if there is any counterparty for RP2, in this cases, no counterparty will be sent to XP8
+                bool hasAnyCounterpartyForRP2 = SAPInterfaceData.AnyCounterpartyForRP2(counterpartyDataSet, RP2);
+                processLog.AddProcessLogDetail("SendCounterparties", string.Format("Has any counterparty to send RP2?: {0}", hasAnyCounterpartyForRP2 ? "Yes" : "No"));
+                processLog.SaveProcessLog();
+                
+                foreach (DataRow counterpartyRow in counterpartyDataSet.Tables["counterparty"].Rows)
+                {
+                    // 01/04/2019 - (SSA)BMR  RITM0031116 - Modify the Send Counterparties to XP8 (SAP) Interface
+                    // Update envoy to RENA to false
+                    counterpartyRow["zenvoy"] = 0;
+                    counterpartyRow["zenvoyxp8"] = 0;
+                    counterpartyRow["zenvoyxp8rena"] = 0;
+                    
+                    //Look for an item in zcounterpartyenvoy status with zenvoy status not equals to "OK"
+                    DataRow rp2LogRow = SAPInterfaceHelper.FindRow(counterpartyDataSet.Tables["zcounterpartyenvoystatus"], r =&gt; r.Field&lt;string&gt;("zcounterparty") == counterpartyRow.Field&lt;string&gt;("counterparty") &amp;&amp; r.Field&lt;string&gt;("zcompany") == string.Empty &amp;&amp; r.Field&lt;string&gt;("zsystem") == RP2);
+                    if (rp2LogRow == null || rp2LogRow["zstatus"].ToString() != "OK")
+                    {
+                        processLog.AddProcessLogDetail("SendCounterparties", string.Format("Counterparties for {0}", RP2));
+                        processLog.SaveProcessLog();
+                        
+                        //Append zcounterpartyenvoystatus if there is no item for this counterparty and system (zcompany empty)
+                            if (rp2LogRow == null)
+                            SAPInterfaceHelper.AppendZCounterpartyEnvoyStatusRow(counterpartyDataSet.Tables["zcounterpartyenvoystatus"], counterpartyRow.Field&lt;string&gt;("counterparty"), string.Empty, RP2);
+                        //Get address and country
+                        DataRow addressRow = SAPInterfaceHelper.FindRow(counterpartyDataSet.Tables["address"], "counterparty", counterpartyRow["counterparty"].ToString());
+                        DataRow countryRow = SAPInterfaceHelper.FindRow(counterpartyDataSet.Tables["country"], "country", addressRow["country"].ToString());
+                        counterpartiesList.Add(SAPInterfaceHelper.CreateCounterpartyObject(counterpartyRow, addressRow, countryRow, string.Empty));
+                    }
+                    else
+                    {
+                        //If there is any counterparty for RP2 in dataset, no counterparty will be sent to XP8
+                        if (hasAnyCounterpartyForRP2)
+                            continue;
+                        
+                        processLog.AddProcessLogDetail("SendCounterparties", string.Format("Counterparties for {0}", XP8));
+                        processLog.SaveProcessLog();
+                        
+                        // 01/04/2019 - (SSA)BMR  RITM0031116 - Modify the Send Counterparties to XP8 (SAP) Interface
+                        string counterparty = counterpartyRow["counterparty"].ToString();
+                        
+                        
+                        if (companyDt.Rows.Count &gt; 0)
+                        {
+                            List&lt;DataRow&gt; tradeRows = companyDt.AsEnumerable().Where(x =&gt; x.Field&lt;string&gt;("counterparty").Equals(counterparty)).ToList();
+                            
+                            foreach (DataRow rowList in tradeRows)
+                            {
+                                // 01/04/2019 - (SSA)BMR  Get company for this counterparty
+                                string company = rowList["company"].ToString();
+                                
+                                //Look for an item in zcounterpartyenvoy status with zenvoy status not equals to "OK", zcompany equals to current company
+                                DataRow xp8LogRow = SAPInterfaceHelper.FindRow(counterpartyDataSet.Tables["zcounterpartyenvoystatus"], r =&gt; r.Field&lt;string&gt;("zcounterparty") == counterpartyRow.Field&lt;string&gt;("counterparty") &amp;&amp; r.Field&lt;string&gt;("zcompany") == company.ToString() &amp;&amp; r.Field&lt;string&gt;("zsystem") == XP8);
+                                if (xp8LogRow == null || xp8LogRow["zstatus"].ToString() != "OK")
+                                {
+                                    //Append zcounterpartyenvoystatus if there is no item for this counterparty, system and current company)
+                                        if (xp8LogRow == null)
+                                    {
+                                        SAPInterfaceHelper.AppendZCounterpartyEnvoyStatusRow(counterpartyDataSet.Tables["zcounterpartyenvoystatus"], counterpartyRow.Field&lt;string&gt;("counterparty"), company.ToString(), XP8);
+                                    }
+                                    //Get address and country
+                                    DataRow addressRow = SAPInterfaceHelper.FindRow(counterpartyDataSet.Tables["address"], "counterparty", counterpartyRow["counterparty"].ToString());
+                                    DataRow countryRow = SAPInterfaceHelper.FindRow(counterpartyDataSet.Tables["country"], "country", addressRow["country"].ToString());
+                                    //processLog.AddProcessLogDetail("SendCounterparties", "Counterparty: " + companyRow.Field&lt;string&gt;("counterparty") + " Company: " + companyRow.Field&lt;string&gt;("company"));
+                                    counterpartiesList.Add(SAPInterfaceHelper.CreateCounterpartyObject(counterpartyRow, addressRow, countryRow, company.ToString()));
+                                }
+                            }
+                        }
+                        
+                        //Get companies for counterparty
+                        /*
+                        DataTable companiesDataTable = SAPInterfaceData.ObtainCompanyByCounterparty(processLog, counterpartyRow["counterparty"].ToString());
+                        foreach (DataRow companyRow in companiesDataTable.Rows)
+                        {
+                            //Due to SAP limitations in counterparty creation request, Allegro can't send a counterparty to XP8 for a company
+                            //if counterparty must be sent for two companies and the other compony of current hasn't been sent to XP8
+                            //current company will not be sent to this system for current company
+                            
+                            if (companiesDataTable.Rows.Count &gt; 1
+                            &amp;&amp; SAPInterfaceData.IsCounterpartyPendingForOkInXP8AndCompany(counterpartyDataSet.Tables["zcounterpartyenvoystatus"]
+                            , counterpartyRow.Field&lt;string&gt;("counterparty")
+                                , XP8
+                            , string.Equals(companyRow.Field&lt;string&gt;("counterparty"), "REC") ? "RENA" : "REC")
+                                )
+                            {
+                                processLog.AddProcessLogDetail("SendCounterparties", string.Format("The counterparty {0} for system {1} and company {2} will not be sent because it's pending OK of company {3}"
+                                , counterpartyRow.Field&lt;string&gt;("counterparty"), XP8, companyRow.Field&lt;string&gt;("counterparty"), string.Equals(companyRow.Field&lt;string&gt;("counterparty"), "REC") ? "RENA" : "REC"));
+                                processLog.SaveProcessLog();
+                                continue;
+                            }
+                            
+                            
+                            //Look for an item in zcounterpartyenvoy status with zenvoy status not equals to "OK", zcompany equals to current company
+                            DataRow xp8LogRow = SAPInterfaceHelper.FindRow(counterpartyDataSet.Tables["zcounterpartyenvoystatus"], r =&gt; r.Field&lt;string&gt;("zcounterparty") == counterpartyRow.Field&lt;string&gt;("counterparty") &amp;&amp; r.Field&lt;string&gt;("zcompany") == companyRow.Field&lt;string&gt;("counterparty") &amp;&amp; r.Field&lt;string&gt;("zsystem") == XP8);
+                            if (xp8LogRow == null || xp8LogRow["zstatus"].ToString() != "OK")
+                            {
+                                //Append zcounterpartyenvoystatus if there is no item for this counterparty, system and current company)
+                                    if (xp8LogRow == null)
+                                {
+                                    SAPInterfaceHelper.AppendZCounterpartyEnvoyStatusRow(counterpartyDataSet.Tables["zcounterpartyenvoystatus"], counterpartyRow.Field&lt;string&gt;("counterparty"), companyRow.Field&lt;string&gt;("counterparty"), XP8);
+                                }
+                                //Get address and country
+                                DataRow addressRow = SAPInterfaceHelper.FindRow(counterpartyDataSet.Tables["address"], "counterparty", counterpartyRow["counterparty"].ToString());
+                                DataRow countryRow = SAPInterfaceHelper.FindRow(counterpartyDataSet.Tables["country"], "country", addressRow["country"].ToString());
+                                //processLog.AddProcessLogDetail("SendCounterparties", "Counterparty: " + companyRow.Field&lt;string&gt;("counterparty") + " Company: " + companyRow.Field&lt;string&gt;("company"));
+                                counterpartiesList.Add(SAPInterfaceHelper.CreateCounterpartyObject(counterpartyRow, addressRow, countryRow, companyRow.Field&lt;string&gt;("counterparty")));
+                            }
+                        }
+                        * */
+                    }
+                }
+                
+                //Validate if there is any counterparty to send
+                if (counterpartiesList != null)
+                {
+                    SAPInterfaceHelper.SendCounterpartiesToSAP(counterpartiesList);
+                    
+                    foreach (DT_HORIZON_COUNTERPARTYCounterpartyObject counterparty in counterpartiesList)
+                    {
+                        if (!string.IsNullOrEmpty(counterparty.Name.ToString()))
+                        {
+                            processLog.AddProcessLogDetail("SendCounterparties", "Counterparty: " + counterparty.Name.ToString() + " Company: " + counterparty.Company.ToString());
+                            processLog.SaveProcessLog();
+                            DataRow counterpartyRow = SAPInterfaceHelper.FindRow(counterpartyDataSet.Tables["counterparty"], "name", counterparty.Name);
+                            
+                            //Update envoystatus of counterparty based on value company
+                            if (string.IsNullOrEmpty(counterparty.Company))
+                                counterpartyRow["zenvoystatus"] = "Send";
+                            else if (string.Equals(counterparty.Company, "REC"))
+                                counterpartyRow["zrec"] = "Send";
+                            else if (string.Equals(counterparty.Company, "RENA"))
+                                counterpartyRow["zrena"] = "Send";
+                        }
+                    }
+                }
+                else
+                processLog.AddProcessLogDetail("SendCounterparties", "No counterparty has been sent to SAP");
+                
+                Allegro.Web.MainWS mainWS = new Allegro.Web.MainWS();
+                counterpartyDataSet = mainWS.UpdateData(counterpartyDataSet, new SelectCriteria());
+                if (counterpartyDataSet.Tables["DbError"] != null &amp;&amp; counterpartyDataSet.Tables["DbError"].Rows.Count &gt; 0)
+                    throw new Exception("update counterparty: " + counterpartyDataSet.Tables["DbError"].Rows[0]["ErrorMessage"].ToString());
+                
+                //Log
+                processLog.UpdateProcessLogStatus(ProcessLog.StatusProcess.SUCCESS);
+                processLog.SaveProcessLog();
+            }
+            catch (Exception exception)
+            {
+                processLog.AddProcessLogDetail("SendCounterparties", exception.Message);
+                processLog.UpdateProcessLogStatus(ProcessLog.StatusProcess.FAILED);
+                processLog.SaveProcessLog();
+            }
+        }
+        
+    }
+}</code>
+    <parameter>using = "Allegro.Core.Server.Grid,Allegro.Core.Criteria,Allegro.Core.Server.Data,Allegro.Core.Security"</parameter>
+    <creationname>EMERGENCY USER</creationname>
+    <creationdate>2015-06-27T09:41:50.957</creationdate>
+    <revisiondate>2022-02-22T08:17:19.007</revisiondate>
+    <revisionname>Shreekanth Pottipalli</revisionname>
+  </classevent>
+</VisualModelDS>
